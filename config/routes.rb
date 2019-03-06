@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  # Home page
+  root :to => "posts#show", :id => '1'
+
+  # All posts
+  resources :posts
 end
