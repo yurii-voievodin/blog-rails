@@ -1,0 +1,14 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <%= image_tag ("avatar.png"), class: "rounded" %>
+    </div>
+    <div class="col-md-8">
+      <h1>Title</h1>
+      <%=raw @post.intro %>
+    </div>
+  </div>
+  <div class="row">
+    <%=raw @post.text %>
+</div>
+</div>
