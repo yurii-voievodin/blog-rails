@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 2019_03_06_120948) do
 
   create_table "posts", force: :cascade do |t|
     t.string "intro"
+    t.string "title"
     t.string "template"
     t.text "text"
     t.string "url"
