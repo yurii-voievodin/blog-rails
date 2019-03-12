@@ -12,6 +12,13 @@ class PostsController < ApplicationController
   def show
     render "posts/about"
   end
+  
+    # TODO: Add Page model
+  # TODO: Should be another page
+  def contacts
+    @post = Post.find(2)
+    render "posts/contacts", :locals => {:post => @post}
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.
