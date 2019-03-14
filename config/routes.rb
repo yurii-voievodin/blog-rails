@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
   # Home page
-  root :to => "posts#show", :id => '1'
+  root :to => "main#main"
   
   # Contacts
   get "/contacts", to: "posts#contacts"
