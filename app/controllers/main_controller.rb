@@ -12,4 +12,8 @@ class MainController < ApplicationController
     render "main/projects"
   end
 
+  def ua
+    render "main/ua"
+  end
+
 end

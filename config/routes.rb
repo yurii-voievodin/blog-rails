@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   # Contacts
   get "/contact", to: "main#contact"
 
+  # Home page in Ukrainian
+  get "/ua", to: "main#ua"
+
   # All posts
   resources :posts
 end
