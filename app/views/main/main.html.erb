@@ -1,38 +1,42 @@
-<div class="cover-container w-100 h-100 p-3 mx-auto flex-column">
-  <div class="container mt-4">
-    <div class="inner">
-      <h3 class="masthead-brand">Yura Voevodin</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="/">Home</a>
-        <a class="nav-link" href="/projects">Projects</a>
-        <a class="nav-link" href="/contact">Contact</a>
-      </nav>
-    </div>
-  </div>
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-sm-3 text-center">
-        <%= image_tag ("avatar.png"), size: "150x150", class: "rounded" %>
+<%= render "layouts/header" %>
+
+<div class="container-lg clearfix">
+
+  <div class="mx-3 my-3">
+
+    <div class="d-table col-12">
+      <div class="col-2 d-table-cell v-align-middle">
+        <%= image_tag ("avatar.png"), class: "width-full avatar" %>
       </div>
-      <div class="col-sm-9 mt-4">
-        <p>Experienced iOS developer with a strong background in web technologies</p>
-        <p>Enthusiast and dreamer from <a href="https://en.wikipedia.org/wiki/Ukraine">Ukraine</a> 🇺🇦</p>
+      <div class="col-10 d-table-cell v-align-middle pl-4">
+        <h1 class="text-normal lh-condensed mb-2">Yura Voevodin</h1>
+        <p class="h4 text-gray text-normal mb-2">Experienced software engineer with strong background in web technologies</p>
+        <p class="h4 text-gray text-normal mb-2">Enthusiast and dreamer from <a href="https://en.wikipedia.org/wiki/Ukraine">Ukraine</a> 🇺🇦</p>
       </div>
     </div>
+
+    <div class="col-12 pt-3 mx-3">
+      <div class="Subhead">
+        <div class="Subhead-heading"><%= octicon "rocket", class: "mr-2", height: 28 %> Experience</div>
+      </div>
+      <ul>
+        <li><a href="https://www.appdev.academy">App Dev Academy</a> - iOS, iPadOS and macOS apps developer, 2016 - now</li>
+        <li><a href="http://bvblogic.com">bvblogic</a> - PHP developer, 2012 - 2016</li>
+        <li><a href="http://dl.sumdu.edu.ua/en">Laboratory of distance learning at SSU</a> - Senior Laboratory, 2012 - 2013</li>
+        <li><a href="http://kpt.sumdu.edu.ua/en/index.php">Polytechnic College of Konotop Institute of the SSU</a> - Laboratory Technician, 2007 - 2008</li>
+      </ul>
+    </div>
+
+    <div class="col-12 pt-3 mx-3">
+      <div class="Subhead">
+        <div class="Subhead-heading"><%= octicon "mortar-board", class: "mr-2", height: 28 %>Education</div>
+      </div>
+      <ul>
+        <li><a href="http://sumdu.edu.ua/int/en/">Sumy State University</a> - Computer science, Bachelor, 2012</li>
+        <li><a href="http://kpt.sumdu.edu.ua/en/index.php">Polytechnic College of Konotop Institute of the SSU</a> - Service of computer and intellectual systems and networks, Junior Specialist, 2009</li>
+      </ul>
+    </div>
   </div>
-  <div class="container mt-4">
-    <h3>👔 Experience</h3>
-    <ul>
-      <li><a href="https://www.appdev.academy">App Dev Academy</a> - iOS and macOS apps developer, 2016 - now</li>
-      <li><a href="http://bvblogic.com">bvblogic</a> - PHP developer, 2012 - 2016</li>
-      <li><a href="http://dl.sumdu.edu.ua/en">Laboratory of distance learning at SSU</a> - Senior Laboratory, 2012 - 2013</li>
-      <li><a href="http://kpt.sumdu.edu.ua/en/index.php">Polytechnic College of Konotop Institute of the SSU</a> - Laboratory Technician, 2007 - 2008</li>
-    </ul>
-    <h3>🎓 Education</h3>
-    <ul>
-      <li><a href="http://sumdu.edu.ua/int/en/">Sumy State University</a> - Computer science, Bachelor, 2012</li>
-      <li><a href="http://kpt.sumdu.edu.ua/en/index.php">Polytechnic College of Konotop Institute of the SSU</a> - Service of computer and intellectual systems and networks, Junior Specialist, 2009</li>
-    </ul>
-  </div>
-  <%= render "layouts/footer" %>
 </div>
+
+<%= render "layouts/footer" %>

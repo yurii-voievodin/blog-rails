@@ -1,25 +1,22 @@
-<div class="cover-container w-100 h-100 p-3 mx-auto flex-column">
-  <div class="container mt-4">
-    <div class="inner">
-      <h3 class="masthead-brand">Yura Voevodin</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link" href="/">Home</a>
-        <a class="nav-link" href="/projects">Projects</a>
-        <a class="nav-link active" href="/contacts">Contact</a>
-      </nav>
-    </div>
-  </div>
-  <div class="container mt-4">
-    <div class="row">
-      <div class="column">
-        <h3>✉️ Contacts</h3>
-        <ul>
-          <li>Mail me <a href="mailto:voevodin.yura@icloud.com">voevodin.yura@icloud.com</a></li>
-          <li>Facebook <a href="https://www.facebook.com/yura.voevodin">yura.voevodin</a></li>
-          <li>Github <a href="https://github.com/yura-voevodin">yura-voevodin</a></li>
-        </ul>
+<%= render "layouts/header" %>
+
+<div class="container-lg clearfix">
+  <div class="mx-3 my-3">
+    <div class="col-12 pt-3 mx-3">
+      <div class="pagehead">
+        <h1><%= octicon "mail", class: "mr-2", height: 32 %> Contacts</h1>
+        <hr>
       </div>
+      <ul>
+        <li>Twitter <a href="https://twitter.com/voevodin_yura">@voevodin_yura</a></li>
+        <li>Instagram <a href="https://www.instagram.com/voevodin.yura/">@voevodin.yura</a></li>
+        <li>Facebook <a href="https://www.facebook.com/yura.voevodin">yura.voevodin</a></li>
+        <li>Telegram <a href="https://t.me/voevodin_yura">@voevodin_yura</a></li>
+        <li>Github <a href="https://github.com/yura-voevodin">yura-voevodin</a></li>
+        <li>Mail me <a href="mailto:voevodin.yura@icloud.com">voevodin.yura@icloud.com</a></li>
+      </ul>
     </div>
   </div>
-  <%= render "layouts/footer" %>
 </div>
+
+<%= render "layouts/footer" %>
