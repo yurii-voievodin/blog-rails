@@ -4,10 +4,6 @@ class MainController < ApplicationController
     render "main/main"
   end
 
-  def contact
-    render "main/contact"
-  end
-
   def projects
     render "main/projects"
   end
