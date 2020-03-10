@@ -2,6 +2,6 @@
   "name": "blog",
   "private": true,
   "dependencies": {
-    "@primer/css": "^13.0.1"
+    "@primer/css": "^13.2.0"
   }
 }
