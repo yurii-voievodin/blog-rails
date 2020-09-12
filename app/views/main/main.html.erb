@@ -6,44 +6,105 @@
   <div class="mx-3 my-3">
 
     <div class="d-table col-12">
-      <div class="col-2 d-table-cell v-align-middle">
-        <%= image_tag ("avatar.png"), class: "width-full avatar" %>
-      </div>
       <div class="col-10 d-table-cell v-align-middle pl-4">
         <h1 class="lh-condensed mb-2">Yura Voevodin</h1>
         <p class="h4 text-normal mb-2">Experienced software engineer with strong background in web technologies</p>
-        <p class="h4 text-normal mb-2">Enthusiast and dreamer from <a href="https://en.wikipedia.org/wiki/Ukraine">Ukraine</a> 🇺🇦</p>
+        <p class="h4 text-normal mb-2">Enthusiast and dreamer from <a href="https://en.wikipedia.org/wiki/Ukraine" class="text-bold">Ukraine</a> 🇺🇦</p>
+      </div>
+      <div class="col-2 d-table-cell v-align-middle">
+        <%= image_tag ("avatar.png"), class: "width-full avatar" %>
       </div>
     </div>
 
     <div class="col-12 pt-3 mx-3">
-      <div class="Subhead">
-        <div class="Subhead-heading"><%= octicon "rocket", class: "mr-2", height: 28 %> Experience</div>
+      <div class="Subhead-heading pb-1"><%= octicon "rocket", class: "mr-2", height: 28 %> Experience</div>
+
+      <div class="TimelineItem">
+        <div class="TimelineItem-badge">
+          <%= octicon("home") %>
+        </div>
+        <div class="TimelineItem-body">
+          iOS Engineer at
+          <a href="https://www.clowder.com" class="text-bold">Clowder</a>,
+          2020 - now
+        </div>
       </div>
-      <ul>
-        <li><a href="https://www.clowder.com">Clowder</a> - iOS Engineer, 2020 - now</li>
-        <li><a href="https://www.appdev.academy">App Dev Academy</a> - iOS, iPadOS and macOS apps developer, 2016 - 2020</li>
-        <li><a href="http://bvblogic.com">bvblogic</a> - PHP developer, 2012 - 2016</li>
-        <li><a href="http://dl.sumdu.edu.ua/en">Laboratory of distance learning at SSU</a> - Senior Laboratory, 2012 - 2013</li>
-        <li><a href="http://kpt.sumdu.edu.ua/en/index.php">Polytechnic College of Konotop Institute of the SSU</a> - Laboratory Technician, 2007 - 2008</li>
-      </ul>
+
+      <div class="TimelineItem">
+        <div class="TimelineItem-badge">
+          <%= octicon("octoface") %>
+        </div>
+        <div class="TimelineItem-body">
+          iOS, iPadOS and macOS Apps Developer at
+          <a href="https://www.appdev.academy" class="text-bold">App Dev Academy</a>,
+          2016 - 2020
+        </div>
+      </div>
+
+      <div class="TimelineItem">
+        <div class="TimelineItem-badge">
+          <%= octicon("globe") %>
+        </div>
+        <div class="TimelineItem-body">
+          PHP Developer at
+          <a href="https://bvblogic.com" class="text-bold">bvblogic</a>,
+          2012 - 2016
+        </div>
+      </div>
+
+      <div class="TimelineItem">
+        <div class="TimelineItem-badge">
+          <%= octicon("check-circle") %>
+        </div>
+        <div class="TimelineItem-body">
+          Senior Laboratory at
+          <a href="https://dl.sumdu.edu.ua/en" class="text-bold">Laboratory of distance learning at SSU</a>,
+          2012 - 2013
+        </div>
+      </div>
+
+      <div class="TimelineItem">
+        <div class="TimelineItem-badge">
+          <%= octicon("check-circle") %>
+        </div>
+        <div class="TimelineItem-body">
+          Laboratory Technician at
+          <a href="https://kpt.sumdu.edu.ua" class="text-bold">Polytechnic College of Konotop Institute of the SSU</a>,
+          2007 - 2008
+        </div>
+      </div>
+
+      <div class="TimelineItem-break ml-0"></div>
     </div>
 
     <div class="col-12 pt-3 mx-3">
-      <div class="Subhead">
-        <div class="Subhead-heading"><%= octicon "mortar-board", class: "mr-2", height: 28 %>Education</div>
+      <div class="Subhead-heading pb-1"><%= octicon "mortar-board", class: "mr-2", height: 28 %>Education</div>
+
+      <div class="TimelineItem">
+        <div class="TimelineItem-badge">
+          <%= octicon("check-circle") %>
+        </div>
+        <div class="TimelineItem-body">
+          Bachelor of Computer Science at <a href="https://sumdu.edu.ua/int/en/" class="text-bold">Sumy State University</a>, 2012
+        </div>
       </div>
-      <ul>
-        <li><a href="http://sumdu.edu.ua/int/en/">Sumy State University</a> - Computer science, Bachelor, 2012</li>
-        <li><a href="http://kpt.sumdu.edu.ua/en/index.php">Polytechnic College of Konotop Institute of the SSU</a> - Service of computer and intellectual systems and networks, Junior Specialist, 2009</li>
-      </ul>
+
+      <div class="TimelineItem">
+        <div class="TimelineItem-badge">
+          <%= octicon("check-circle") %>
+        </div>
+        <div class="TimelineItem-body">
+          Junior Specialist, Service of computer and intellectual systems and networks <br> at <a href="https://kpt.sumdu.edu.ua" class="text-bold">Polytechnic College of Konotop Institute of the SSU</a>, 2009
+        </div>
+      </div>
+
+      <div class="TimelineItem-break ml-0"></div>
     </div>
 
     <div class="col-12 pt-3 mx-3">
-      <div class="Subhead">
-        <div class="Subhead-heading"><%= octicon "mail", class: "mr-2", height: 28 %>Contacts</div>
-      </div>
-      <ul>
+      <div class="Subhead-heading pb-1"><%= octicon "mail", class: "mr-2", height: 28 %>Contacts</div>
+      <div class="ml-3">
+        <ul>
         <li>LinkedIn <a href="https://www.linkedin.com/in/yurivoevodin/">yurivoevodin</a></li>
         <li>Upwork <a href="https://www.upwork.com/freelancers/~01f49c60721b71f48b">Yura V.</a></li>
         <li>Twitter <a href="https://twitter.com/voevodin_yura">@voevodin_yura</a></li>
@@ -53,8 +114,8 @@
         <li>Github <a href="https://github.com/yura-voevodin">yura-voevodin</a></li>
         <li>Mail me <a href="mailto:voevodin.yura@icloud.com">voevodin.yura@icloud.com</a></li>
       </ul>
+      </div>
     </div>
-
   </div>
 </div>
 

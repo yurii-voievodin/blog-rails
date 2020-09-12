@@ -1,4 +1,4 @@
-<% @title = "Yura Voevodin - Projects" %>
+<% @title = "Yura Voevodin - My Projects" %>
 <%= render "layouts/header" %>
 
 <div class="container-lg clearfix">
@@ -6,29 +6,24 @@
     <div class="col-12 pt-3 mx-3">
 
       <div class="pagehead">
-        <h1><%= octicon "tools", class: "mr-2", height: 32 %> Projects</h1>
-        <hr>
+        <h1><%= octicon "tools", class: "mr-2", height: 32 %>My Projects</h1>
       </div>
 
-      <div class="clearfix p-3">
-        <div class="float-left p-3 mr-3">
-          <%= image_tag ("my-university.png"), :size => "64x64", :class => "avatar" %>
+      <div class="clearfix pt-3">
+        <div class="float-left p-3">
+          <%= image_tag ("my-university.png"), :size => "64x64" %>
         </div>
         <div class="overflow-hidden">
           <h3>My University</h3>
-          <ul>
-            <li><a href="https://my-university.com.ua">my-university.com.ua</a> - web service and API on <a href="https://rubyonrails.org">Rails</a> framework with schedule for universities</li>
-            <li><a href="https://itunes.apple.com/ua/app/university-schedule/id1440425058">My University</a> - iOS app with schedule for universities</li>
-            <li><a href="https://play.google.com/store/apps/details?id=ua.com.myuniversity">My University</a> - Android app with schedule for universities</li>
-          </ul>
+          <p><a href="https://my-university.com.ua">my-university.com.ua</a> - web service and API on <a href="https://rubyonrails.org">Rails</a> framework (<a href="https://github.com/yura-voevodin/my-university-server-rails">Source Code</a>)</p>
+          <p><a href="https://itunes.apple.com/ua/app/university-schedule/id1440425058">iOS app</a> with schedule for universities (<a href="https://github.com/yura-voevodin/my-university-ios">Source Code</a>)</p>
+          <p><a href="https://play.google.com/store/apps/details?id=ua.com.myuniversity">Android app</a> with schedule for universities</p>
         </div>
       </div>
+      <hr>
 
-      <div class="clearfix p-3">
-        <div class="float-left p-3 mr-3">
-          <%= octicon "browser", height: 64, width: 64 %>
-        </div>
-        <div class="overflow-hidden">
+      <div class="clearfix">
+        <div class="overflow-hidden pt-3">
           <h3>Personal  website</h3>
           <p><a href="http://voevodin-yura.com/">voevodin-yura.com</a> - website on <a href="https://rubyonrails.org">Rails</a> framework and <a href="https://primer.style/css/">Primer CSS</a></p>
           <p>Source code on GitHub - <a href="https://github.com/yura-voevodin/blog-rails">blog-rails</a></p>
