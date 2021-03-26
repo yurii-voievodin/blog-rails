@@ -4,7 +4,7 @@ capybara-*.html
 /log
 /tmp
 /db/*.sqlite3
-/db/*.sqlite3-journal
+/db/*.sqlite3-*
 /public/system
 /coverage/
 /spec/tmp
@@ -15,6 +15,11 @@ pickle-email-*.html
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
 config/master.key
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
 
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
