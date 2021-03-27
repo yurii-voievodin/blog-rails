@@ -14,7 +14,7 @@
  *= require_self
  */
 
-@import "@primer/css/index.scss";
+@import "bootstrap/scss/bootstrap";
 
 html{ height:100%; }
 body{ min-height:100%; padding:0; margin:0; position:relative; }
