@@ -2,6 +2,10 @@
   "name": "blog",
   "private": true,
   "dependencies": {
-    "@primer/css": "^13.2.0"
+    "@primer/css": "^13.2.0",
+    "@rails/webpacker": "4.3.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
   }
 }
