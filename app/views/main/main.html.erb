@@ -1,17 +1,26 @@
 <% @title = "Yura Voevodin" %>
-<%= render "layouts/header" %>
 
-<div class="container py-4">
-    <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Yura Voevodin</h1>
-            <%= image_tag ("avatar.png"), class: "mx-auto rounded float-end m-2", height: '100', width: '100' %>
-            <p class="col-md-8 fs-5">Experienced software engineer with strong background in web technologies. Enthusiast and dreamer from <a href="https://en.wikipedia.org/wiki/Ukraine" class="text-bold">Ukraine</a> 🇺🇦</p>
-            <a href="/about" class="btn btn-primary btn-lg">Read more</a>
-        </div>
-    </div>
+<div class="col-lg-8 mx-auto p-3 py-md-5">
 
-    <%= render "layouts/footer" %>
+	<h1>👋 Hello! My name is Yura</h1>
+	<p class="fs-5 col-md-8">Experienced software engineer with strong background in web technologies. Enthusiast and dreamer from Ukraine 🇺🇦</p>
+
+	<div class="mb-5">
+		<a href="/about" class="btn btn-primary btn-lg">Read more</a>
+	</div>
+
+	<hr class="col-3 col-md-2 mb-5">
+
+	<div class="row g-5">
+		<div class="col-md-8">
+			<h2>My projects <a href="/projects"><i class="bi bi-arrow-right-circle" style="font-size: 1.5rem;"></i></a></h2>
+			<p>Read about my personal projects. Check out open source repositiries on GitHub.</p>
+			<ul class="icon-list">
+				<li><a href="https://github.com/university-my/ios" rel="noopener" target="_blank">My Universit</a> - iOS app with schedule for universities</li>
+				<li><a href="https://github.com/yura-voevodin/my-university-server-rails" rel="noopener" target="_blank">my-university.com.ua</a> - web service and API on <a href="https://rubyonrails.org" rel="noopener" target="_blank">Rails</a> framework</li>
+			</ul>
+		</div>
+	</div>
+
+	<%= render "layouts/footer" %>
 </div>
-
-
