@@ -12,6 +12,9 @@ Rails.application.routes.draw do
   # Home page in Ukrainian
   get "/ua", to: "main#ua"
 
+  # About
+  get "/about", to: "pages#about"
+
   # All posts
   resources :posts
 end
