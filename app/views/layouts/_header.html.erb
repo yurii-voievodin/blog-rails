@@ -1,9 +1,8 @@
-<div class="Header">
-  <div class="Header-item">
-    <%= link_to(root_url, class: "Header-link f4 d-flex flex-items-center") do %>
-    <% end %>
-  </div>
-  <div class="Header-item">
-    <a href="/projects" class="Header-link">My Projects</a>
-  </div>
+<div class="container">
+  <header class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+        <li class="nav-item"><%= link_to "Home", root_url, class: "nav-link #{ is_active('main')}" %></li>
+        <li class="nav-item"><%= link_to "About", "about", class: "nav-link #{ is_active('about')}" %></li>
+    </ul>
+</header>
 </div>
