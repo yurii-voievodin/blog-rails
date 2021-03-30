@@ -11,7 +11,7 @@ module MarkdownHelper
    render_options = {
      # filer_html: true, 
      hard_wrap: true,
-     link_attributes: { rel: 'nofollow' },
+     link_attributes: { rel: 'nofollow', target: '_blank' },
      prettify: true
    }
    renderer = HTML.new(render_options)
