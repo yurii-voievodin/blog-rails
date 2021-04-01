@@ -1,19 +1,27 @@
-#### Hi!
+#### 😎 Hi!
 
-I'm Yura Voevodin, from [Sumy, Ukraine][ukraine]. And I'm glad that you took a time to visit this website.
+I'm Yura Voevodin, from [Sumy, Ukraine][ukraine]. And I'm glad that you took a time to visit this [website][blog]
+I'm working as `Software Engineer` and writing code on `Swift`, mainly building an iOS applications (like [this one][proveit])
+Also I'm using [Ruby On Rails][ruby-on-rail] framework for my [own projects](/projects)
+</br>
 
-I'm working as _Software Engineer_ and writing code on Swift, mainly building an iOS applications.
+**Technologies that I'm familiar with:**
+Swift, Git, iOS, UIKit, Xcode, CoreData, MVC, Multithreading, OOP, REST API, CocoaPods, CoreLocation, Autolayout, JSON, Cocoa Touch, MapKit, Push Notifications, Foundation, Alamofire, Keychain, iOS frameworks, REST, SwiftUI, SwiftPM, InAppPurchase, AppStore submission, AppStore connect, Firebase, Core Data/Realm, SQLite
 
-Also I'm using [Ruby On Rails][ruby-on-rail] framework and [Python][python] programming language on my [own projects](/projects).
+**Some achievement:**
+* Participation in the development of 10 applications published on the App Store (mainly from scratch)
+* Own projects
+* Experience in back-end programming and API development
 
-Feel free to ask me any questions and follow me on social media.
+</br>
+Feel free to ask me any questions and follow me on [social media][instagram]
 
 ---
 <br>
 
-#### Experience
+#### 🚀 Experience
 
-* iOS Engineer at [Clowder][clowder], 2020 - now
+* iOS Developer at [Clowder][clowder], 2020 - now
 
 * iOS, iPadOS and macOS Apps Developer at [App Dev Academy][app-dev-academy], 2016 - 2020
 
@@ -26,7 +34,7 @@ Feel free to ask me any questions and follow me on social media.
 ---
 <br>
 
-#### Education
+#### 🎓 Education
 
 * Bachelor of Computer Science at [Sumy State University][ssu], 2012
 
@@ -35,21 +43,23 @@ Feel free to ask me any questions and follow me on social media.
 ---
 <br>
 
-#### Contacts
+#### ✉️ Contacts
 
-* LinkedIn [yurivoevodin](https://www.linkedin.com/in/yurivoevodin)
-* Upwork [Yura V.](https://www.upwork.com/freelancers/~01f49c60721b71f48b)
+* Github [yura-voevodin](https://github.com/yura-voevodin)
 * Twitter [@voevodin_yura](https://twitter.com/voevodin_yura)
-* Instagram [@voevodin.yura](https://www.instagram.com/voevodin.yura)
+* LinkedIn [yurivoevodin](https://www.linkedin.com/in/yurivoevodin)
+* Instagram [@voevodin.yura][instagram]
 * Facebook [yura.voevodin](https://www.facebook.com/yura.voevodin)
 * Telegram [@voevodin_yura](https://t.me/voevodin_yura)
-* Github [yura-voevodin](https://github.com/yura-voevodin)
+* Upwork [Yura V.](https://www.upwork.com/freelancers/~01f49c60721b71f48b)
 * Mail me [voevodin.yura@icloud.com](mailto:voevodin.yura@icloud.com)
+
 
 [avatar]: /avatar.png
 [ukraine]: https://www.youtube.com/watch?v=qyMkAOd_Z9U
+[blog]: https://github.com/yura-voevodin/blog-rails
+[proveit]: https://app.playproveit.com
 [ruby-on-rail]: https://rubyonrails.org
-[python]: https://www.python.org
 
 [clowder]: https://www.clowder.com/
 [app-dev-academy]: https://www.appdev.academy/
@@ -58,3 +68,5 @@ Feel free to ask me any questions and follow me on social media.
 [colage]: https://kpt.sumdu.edu.ua/
 
 [ssu]: https://sumdu.edu.ua/int/en/
+
+[instagram]: https://www.instagram.com/voevodin.yura

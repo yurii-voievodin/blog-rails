@@ -1,20 +1,15 @@
 Rails.application.routes.draw do
   
-  # Home page
+  # Home page (en)
   root :to => "main#main"
 
-  # Projects
+  # Projects (en)
   get "/projects", to: "main#projects"
-  
-  # Contacts
-  get "/contact", to: "main#contact"
 
-  # Home page in Ukrainian
+  # Home page (ua)
   get "/ua", to: "main#ua"
 
-  # About
+  # About (en)
   get "/about", to: "pages#about"
-
-  # All posts
-  resources :posts
+  
 end
