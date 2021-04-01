@@ -12,4 +12,7 @@ Rails.application.routes.draw do
   # About (en)
   get "/about", to: "pages#about"
   
+  # About (ua)
+  get "/about_ua", to: "pages#about_ua"
+  
 end

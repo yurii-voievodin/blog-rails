@@ -18,7 +18,6 @@ Feel free to ask me any questions and follow me on [social media][instagram]
 
 ---
 <br>
-
 #### 🚀 Experience
 
 * iOS Developer at [Clowder][clowder], 2020 - now
@@ -33,7 +32,6 @@ Feel free to ask me any questions and follow me on [social media][instagram]
 
 ---
 <br>
-
 #### 🎓 Education
 
 * Bachelor of Computer Science at [Sumy State University][ssu], 2012
@@ -42,7 +40,6 @@ Feel free to ask me any questions and follow me on [social media][instagram]
 
 ---
 <br>
-
 #### ✉️ Contacts
 
 * Github [yura-voevodin](https://github.com/yura-voevodin)
