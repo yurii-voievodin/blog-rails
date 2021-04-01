@@ -1,0 +1,13 @@
+<% @title = "Юра Воєводін - Про мене" %>
+<%= render "layouts/header_ua" %>
+
+<div class="col-lg-8 mx-auto p-3 py-md-5">
+
+    <div class="text-center mb-4">
+        <%= image_tag ("avatar.jpeg"), class: "rounded", size: "200x200", alt: ">Юра Воєводін" %>
+    </div>
+
+    <%= markdown(@markdown_text)  %>
+    
+    <%= render "layouts/footer" %>
+</div>
