@@ -12,9 +12,10 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import 'jquery'
-import 'popper.js'
 import 'bootstrap'
+
+const images = require.context('../images', true)
+const imagePath = (name) => images(name, true)
 
 Rails.start()
 Turbolinks.start()
