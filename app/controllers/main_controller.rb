@@ -9,8 +9,9 @@ class MainController < ApplicationController
     render "main/projects"
   end
 
-  def ua
-    render "main/ua"
+  def about
+    @markdown_text = File.read("pages/about.md")
+    render "main/about"
   end
 
 end
