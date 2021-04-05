@@ -11,8 +11,17 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
-import 'bootstrap-icons/font/bootstrap-icons.css'
-import 'bootstrap'
+import "bootstrap-icons/font/bootstrap-icons.css"
+import "bootstrap"
+
+import "../stylesheets/application"
+
+document.addEventListener("turbolinks:load", () => {
+    $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="popover"]').popover()
+    $('.toast').toast({ autohide: false })
+    $('#toast').toast('show')
+})
 
 const images = require.context('../images', true)
 const imagePath = (name) => images(name, true)
