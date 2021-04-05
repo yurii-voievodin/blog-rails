@@ -75,3 +75,5 @@ yarn-debug.log*
 /public/uploads
 
 .DS_Store
+
+/config/master.key
