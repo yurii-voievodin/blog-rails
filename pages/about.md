@@ -1,8 +1,8 @@
 #### 😎 Hi!
 
-I'm Yura Voevodin, from [Sumy, Ukraine][ukraine]. And I'm glad that you took a time to visit this [website][blog]
-I'm working as `Software Engineer` and writing code on `Swift`, mainly building an iOS applications (like [this one][proveit])
-Also I'm using [Ruby On Rails][ruby-on-rail] framework for my [own projects](/projects)
+I'm Yura Voevodin, from [Sumy, Ukraine][ukraine] and I'm glad that you took a time to visit this [website][blog]
+I work as `Software Engineer` and write code on `Swift`, mainly building an iOS applications (like [this one][proveit])
+I also use [Ruby On Rails][ruby-on-rail] framework for my [own projects](/projects)
 
 Feel free to ask me any questions and follow me on [social media][instagram]
 
