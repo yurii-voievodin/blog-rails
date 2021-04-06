@@ -19,6 +19,12 @@ Rails.application.routes.draw do
     
     # Projects
     get "projects", to: "ua#projects"
+
+    scope :blog do
+
+      # Feature
+    get "feature", to: "ua_blog#feature"
+    end
   end
   
 end

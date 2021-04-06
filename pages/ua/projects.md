@@ -5,7 +5,7 @@
 
 * [iOS додаток][my-university-ios] з розкладом занять для університетів [<i class="bi bi-github"></i>][my-university-ios-source]
 
-* [Android app][my-university-android] з розкладом занять для університетів [<i class="bi bi-github"></i>][my-university-android-source]
+* [Android додаток][my-university-android] з розкладом занять для університетів [<i class="bi bi-github"></i>][my-university-android-source]
   
 [my-university]: https://my-university.com.ua
 [rails]: https://rubyonrails.org
