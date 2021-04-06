@@ -16,8 +16,13 @@ Setup database
 Yarn:
 `yarn`
 
-Compile assets
-`RAILS_ENV=production rails assets:precompile`
+Compile assets:
+- `rake webpacker:info RAILS_ENV=production`
+- `rake webpacker:clean RAILS_ENV=production`
+- `rake webpacker:compile RAILS_ENV=production`
+
+Old:
+- `RAILS_ENV=production rails assets:precompile`
 
 Restart server
 `rails restart`
