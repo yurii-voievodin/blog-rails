@@ -6,13 +6,25 @@ Rails.application.routes.draw do
   # Projects (en)
   get "/projects", to: "main#projects"
 
-  # Home page (ua)
-  get "/ua", to: "main#ua"
-
   # About (en)
-  get "/about", to: "pages#about"
-  
-  # About (ua)
-  get "/about_ua", to: "pages#about_ua"
+  get "/about", to: "main#about"
+
+  # UA
+  scope :ua do
+    # Home page
+    get "/", to: "ua#index"
+
+    # About
+    get "about", to: "ua#about"
+    
+    # Projects
+    get "projects", to: "ua#projects"
+
+    scope :blog do
+
+      # Feature
+    get "feature", to: "ua_blog#feature"
+    end
+  end
   
 end
