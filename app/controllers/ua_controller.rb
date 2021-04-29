@@ -11,7 +11,7 @@ class UaController < ApplicationController
   end
 
   def projects
-    @title = "Юра Воєводін - Мої проєкти"
+    @title = "Юра Воєводін - Власні проєкти"
     @markdown_text = File.read("pages/ua/projects.md")
     render "projects"
   end

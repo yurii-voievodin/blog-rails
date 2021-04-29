@@ -6,8 +6,8 @@ I also use [Ruby On Rails][ruby-on-rail] framework for my [own projects](/projec
 
 Feel free to ask me any questions and follow me on [social media][instagram]
 
----
-<br>
+<hr class="col-3 col-md-2 mb-5">
+
 #### 🚀 Experience
 
 * iOS Developer at [Clowder][clowder], 2020 - now
@@ -20,16 +20,16 @@ Feel free to ask me any questions and follow me on [social media][instagram]
 
 * Laboratory Technician at [Polytechnic College of Konotop Institute of the SSU][colage], 2007 - 2008
 
----
-<br>
+<hr class="col-3 col-md-2 mb-5">
+
 #### 🎓 Education
 
 * Bachelor of Computer Science at [Sumy State University][ssu], 2012
 
 * Junior Specialist, Service of computer and intellectual systems and networks at [Polytechnic College of Konotop Institute of the SSU][colage], 2009
 
----
-<br>
+<hr class="col-3 col-md-2 mb-5">
+
 #### ✉️ Contacts
 
 * Github [yura-voevodin](https://github.com/yura-voevodin)
