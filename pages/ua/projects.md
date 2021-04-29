@@ -1,6 +1,9 @@
-<img src="/my-university.png" class="img-thumbnail" width="64" height="64" alt="Мій Універтитет">
+## 🛠 Власні проєкти
 
-### Мій Університет
+<hr class="col-3 col-md-2 mb-5">
+
+##### Мій Університет
+
 * [my-university.com.ua][my-university] - веб-сайт та API на [Rails][rails] фреймворку [<i class="bi bi-github"></i>][my-university-server-rails]
 
 * [iOS додаток][my-university-ios] з розкладом занять для університетів [<i class="bi bi-github"></i>][my-university-ios-source]
@@ -17,7 +20,7 @@
 [my-university-android-source]: https://github.com/university-my/android
 ---
 
-### Персональний веб-сайт
+##### Персональний веб-сайт
 * [voevodin-yura.com][voevodin-yura] - веб-сайт на [Rails][rails] та [Bootstrap][bootstrap] [<i class="bi bi-github"></i>][blog]
   
 [voevodin-yura]: https://voevodin-yura.com

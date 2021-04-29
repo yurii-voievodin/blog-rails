@@ -1,6 +1,9 @@
-<img src="/my-university.png" class="img-thumbnail" width="64" height="64" alt="My University Logo">
+## 🛠 Personal Projects
 
-### My University
+<hr class="col-3 col-md-2 mb-5">
+
+##### My University
+
 * [my-university.com.ua][my-university] - web service and API on [Rails][rails] framework [<i class="bi bi-github"></i>][my-university-server-rails]
 
 * [iOS app][my-university-ios] with schedule for universities [<i class="bi bi-github"></i>][my-university-ios-source]
@@ -17,7 +20,7 @@
 [my-university-android-source]: https://github.com/university-my/android
 ---
 
-### Personal  website
+##### Personal  website
 * [voevodin-yura.com][voevodin-yura] - website on [Rails][rails] framework and [Bootstrap][bootstrap] toolkit [<i class="bi bi-github"></i>][blog]
   
 [voevodin-yura]: https://voevodin-yura.com
