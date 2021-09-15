@@ -4,20 +4,17 @@
 
 ##### Мій Університет
 
-* [my-university.com.ua][my-university] - веб-сайт та API на [Rails][rails] фреймворку [<i class="bi bi-github"></i>][my-university-server-rails]
+* [my-university.com.ua][my-university] - веб-сайт та API на [Rails][rails] фреймворку
 
-* [iOS додаток][my-university-ios] з розкладом занять для університетів [<i class="bi bi-github"></i>][my-university-ios-source]
+* [iOS додаток][my-university-ios] з розкладом занять для університетів
 
-* [Android додаток][my-university-android] з розкладом занять для університетів [<i class="bi bi-github"></i>][my-university-android-source]
+* [Android додаток][my-university-android] з розкладом занять для університетів
   
 [my-university]: https://my-university.com.ua
 [rails]: https://rubyonrails.org
-[my-university-server-rails]: https://github.com/university-my/server-rails
   
 [my-university-ios]: https://itunes.apple.com/ua/app/university-schedule/id1440425058
-[my-university-ios-source]: https://github.com/university-my/ios
 [my-university-android]: https://play.google.com/store/apps/details?id=ua.com.myuniversity
-[my-university-android-source]: https://github.com/university-my/android
 ---
 
 ##### Персональний веб-сайт

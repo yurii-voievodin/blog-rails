@@ -1,7 +1,7 @@
 #### 😎 Hi!
 
 I'm Yura Voevodin, from [Sumy, Ukraine][ukraine] and I'm glad that you took a time to visit this [website][blog]
-I work as `Software Engineer` and write code on `Swift`, mainly building an iOS applications (like [this one][proveit])
+I work as `Software Engineer` and write code on `Swift`, mainly building an iOS applications
 I also use [Ruby On Rails][ruby-on-rail] framework for my [own projects](/projects)
 
 Feel free to ask me any questions and follow me on [social media][instagram]
@@ -11,6 +11,8 @@ Feel free to ask me any questions and follow me on [social media][instagram]
 #### 🚀 Experience
 
 * iOS Developer at [Clowder][clowder], 2020 - now
+
+* iOS Developer at [CoachNow][coach-now], 2020 - now
 
 * iOS, iPadOS and macOS Apps Developer at [App Dev Academy][app-dev-academy], 2016 - 2020
 
@@ -48,12 +50,13 @@ Feel free to ask me any questions and follow me on [social media][instagram]
 [proveit]: https://app.playproveit.com
 [ruby-on-rail]: https://rubyonrails.org
 
-[clowder]: https://www.clowder.com/
-[app-dev-academy]: https://www.appdev.academy/
-[bvblogic]: https://bvblogic.com/
+[coach-now]: https://coachnow.io
+[clowder]: https://www.clowder.com
+[app-dev-academy]: https://www.appdev.academy
+[bvblogic]: https://bvblogic.com
 [ssu-laboratory]: https://dl.sumdu.edu.ua/en
-[colage]: https://kpt.sumdu.edu.ua/
+[colage]: https://kpt.sumdu.edu.ua
 
-[ssu]: https://sumdu.edu.ua/int/en/
+[ssu]: https://sumdu.edu.ua/int/en
 
 [instagram]: https://www.instagram.com/voevodin.yura

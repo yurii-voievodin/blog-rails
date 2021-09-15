@@ -1,7 +1,7 @@
 #### 😎 Привіт!
 
 Я Юра Воєводін, з міста [Суми, Україна][ukraine]. Я радий, що ви знайшли час, щоб відвідати цей [сайт][blog]
-Я займаюся `розробкою програмного забезпечення` та пишу код на мові програмування `Swift`, в основному створюю додатки для iOS (як [ось цей][proveit])
+Я займаюся `розробкою програмного забезпечення` та пишу код на мові програмування `Swift`, в основному створюю додатки для iOS
 Також я використовую фреймворк [Ruby On Rails][ruby-on-rail] для [власних проєктів](/projects)
 
 Задавайте мені будь-які питання та стежте за мною в [соціальних мережах][instagram]
@@ -11,6 +11,8 @@
 #### 🚀 Досвід
 
 * iOS Developer в [Clowder][clowder], 2020 - до сьогодні
+
+* iOS Developer в [CoachNow][coach-now], 2020 - до сьогодні
 
 * Розробник застосунків для iOS, iPadOS та macOS в [App Dev Academy][app-dev-academy], 2016 - 2020
 
@@ -48,11 +50,12 @@
 [proveit]: https://app.playproveit.com
 [ruby-on-rail]: https://rubyonrails.org
 
-[clowder]: https://www.clowder.com/
-[app-dev-academy]: https://www.appdev.academy/
-[bvblogic]: https://bvblogic.com/
+[coach-now]: https://coachnow.io
+[clowder]: https://www.clowder.com
+[app-dev-academy]: https://www.appdev.academy
+[bvblogic]: https://bvblogic.com
 [ssu-laboratory]: https://dl.sumdu.edu.ua/en
-[colage]: https://kpt.sumdu.edu.ua/
+[colage]: https://kpt.sumdu.edu.ua
 
 [ssu]: https://sumdu.edu.ua/int/en/
 
