@@ -1,7 +1,21 @@
 <%= render "layouts/header_ua" %>
 
-<div class="col-lg-8 mx-auto p-3 py-md-5">
-  <%= markdown(@markdown_text)  %>
-  
-  <%= render "layouts/footer" %>
+<div class="col-9 mx-auto py-md-5">
+
+    <div class="row mb-5">
+        <div class="col">
+            <h1>🛠 Власні проєкти</h1>
+            <p class="fs-4">Ось проекти, над якими я працюю:</p>
+        </div>
+    </div>  
+
+    <div class="row fs-5">
+        <div class="col-sm-4 mb-4">
+            <%= image_pack_tag 'my-university.png', class: "rounded img-fluid" %>
+        </div>
+        
+        <%= markdown(@markdown_text) %>    
+    </div>
+
+    <%= render "layouts/footer" %>
 </div>

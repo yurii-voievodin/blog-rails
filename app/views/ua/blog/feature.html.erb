@@ -1,8 +1,10 @@
 <%= render "layouts/header_ua" %>
 
-<div class="col-lg-8 mx-auto p-3 py-md-5">
+<div class="col-8 mx-auto p-3 py-md-5">
 
-    <%= markdown(@markdown_text)  %>
+    <div class="row fs-5">
+        <%= markdown(@markdown_text)  %>
+    </div>
     
     <%= render "layouts/footer" %>
 </div>

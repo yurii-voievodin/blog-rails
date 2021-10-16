@@ -2,12 +2,8 @@ class UaController < ApplicationController
 
   def index
     @title = "Привіт! Мене звати Юра"
-    render "ua/index"
-  end
-    
-  def about
     @markdown_text = File.read("pages/ua/about.md")
-    render "ua/about"
+    render "ua/index"
   end
 
   def projects
