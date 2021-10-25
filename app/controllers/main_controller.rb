@@ -1,12 +1,18 @@
 class MainController < ApplicationController
 
+  #TODO: New categories:
+  # Timeline
+  # Music
+  # Photos
+  # Games
+  # Books
+  # Movies
+
   def main
-    @markdown_text = File.read("pages/about.md")
     render "main/main"
   end
 
   def projects
-    @markdown_text = File.read("pages/projects.md")
     render "main/projects"
   end
 
