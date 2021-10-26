@@ -5,16 +5,34 @@
     <div class="row mb-5">
         <div class="col">
             <h1>🛠 Власні проєкти</h1>
-            <p class="fs-4">Ось проекти, над якими я працюю:</p>
         </div>
-    </div>  
+    </div>
 
-    <div class="row fs-5">
-        <div class="col-sm-4 mb-4">
-            <%= image_pack_tag 'my-university.png', class: "rounded img-fluid" %>
+    <div class="row fs-5 p-3 bg-light border rounded-3">
+
+        <div class="col-sm-2">
+            <%= image_pack_tag 'my-university.png', class: "img-thumbnail" %>
         </div>
-        
-        <%= markdown(@markdown_text) %>    
+
+        <div class="col">
+            <h4>Мій Університет</h4>
+
+            <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://my-university.com.ua" rel="nofollow" target="_blank">my-university.com.ua</a> - веб-сайт та API на <a href="https://rubyonrails.org" rel="nofollow" target="_blank">Rails</a> фреймворку</li>
+                <li class="mb-2"><a href="https://itunes.apple.com/ua/app/university-schedule/id1440425058" rel="nofollow" target="_blank">iOS додаток</a> з розкладом занять для університетів</li>
+                <li class="mb-2"><a href="https://play.google.com/store/apps/details?id=ua.com.myuniversity" rel="nofollow" target="_blank">Android додаток</a> з розкладом занять для університетів</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row fs-5 p-3 mt-4 text-white bg-dark rounded-3">
+        <div class="container-fluid py-3 px-3">
+            <h4>Персональний веб-сайт</h4>
+
+            <ul class="list-unstyled">
+                <li><a href="https://voevodin-yura.com" rel="nofollow" target="_blank">voevodin-yura.com</a>  - веб-сайт на <a href="https://rubyonrails.org" rel="nofollow" target="_blank">Rails</a> та <a href="https://getbootstrap.com" rel="nofollow" target="_blank">Bootstrap</a>  <a href="https://github.com/yura-voevodin/blog-rails" rel="nofollow" target="_blank"><i class="bi bi-github"></i></a></li>
+            </ul>
+        </div>
     </div>
 
     <%= render "layouts/footer" %>
