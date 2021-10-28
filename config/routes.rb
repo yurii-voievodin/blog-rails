@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   # Projects (en)
   get "/projects", to: "main#projects"
 
+  # Personal (en)
+  get "/personal", to: "main#personal"
+
   # UA
   scope :ua do
     # Home page
