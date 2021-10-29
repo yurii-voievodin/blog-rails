@@ -17,6 +17,9 @@ Rails.application.routes.draw do
     # Projects
     get "projects", to: "ua#projects"
 
+    # Personal
+    get "personal", to: "ua#personal"
+
     scope :blog do
 
       # Feature

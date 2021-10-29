@@ -9,5 +9,9 @@ class UaController < ApplicationController
     @title = "Юра Воєводін - Власні проєкти"
     render "projects"
   end
+
+  def personal
+    render "ua/personal"
+  end
   
   end
