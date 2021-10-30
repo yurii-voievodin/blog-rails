@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   # Personal (en)
   get "/personal", to: "main#personal"
 
+  # Timeline (en)
+  get "/timeline", to: "main#timeline"
+
   # UA
   scope :ua do
     # Home page

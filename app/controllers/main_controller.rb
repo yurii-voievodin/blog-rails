@@ -12,4 +12,8 @@ class MainController < ApplicationController
     render "main/personal"
   end
 
+  def timeline
+    render "main/timeline"
+  end
+
 end

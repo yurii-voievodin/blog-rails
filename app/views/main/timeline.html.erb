@@ -1,0 +1,116 @@
+<% @title = "Yura Voevodin - Projects" %>
+<%= render "layouts/header" %>
+
+<div class="col-9 mx-auto py-md-5">
+
+    <h2 class="text-center">My Timeline</h2>
+
+    <div class="container py-2 mt-4 mb-4">
+
+      <div class="row">
+        <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <div class="row h-50"></div>
+            <%= image_pack_tag 'dot.svg', class: "rounded-circle mx-auto d-block", size: '25x25' %>
+            <div class="vr h-50 mx-4 mt-2"></div>
+        </div>
+
+        <div class="col py-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="float-right text-muted">10 February 2021</div>
+                    <h4 class="card-title">CoachNow</h4>
+                    <p class="card-text">I'm started a part-time work at <b>CoachNow</b> company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <%= render "layouts/dot" %>
+        </div>
+
+        <div class="col py-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="float-right text-muted">22 July 2021</div>
+                    <h4 class="card-title">✳️ New Release - My University</h4>
+                    <p class="card-text">New version of <b>My University</b> iOS app is published</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <%= render "layouts/dot" %>
+        </div>
+
+        <div class="col py-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="float-right text-muted">16 March 2020</div>
+                    <h4 class="card-title">Clowder</h4>
+                    <p class="card-text">I'm started working at <b>Clowder</b> company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <%= render "layouts/dot" %>
+        </div>
+
+        <div class="col py-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="float-right text-muted">March 2020</div>
+                    <h4 class="card-title">App Dev Academy</h4>
+                    <div class="card-text">
+                        <p>I'm finished working at <b>App Dev Academy</b> 4+ years of work</p>
+                        <p>I worked there as Software Developer, building apps for iOS, iPadOS and macOS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <%= render "layouts/dot" %>
+        </div>
+
+        <div class="col py-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="float-right text-muted">July 2019</div>
+                    <h4 class="card-title">🧑‍🍼 Eve</h4>
+                    <p class="card-text">My daughter is born ❤️</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-auto text-center flex-column d-none d-sm-flex">
+            <%= render "layouts/dot" %>
+        </div>
+
+        <div class="col py-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="float-right text-muted">24 December 2018</div>
+                    <h4 class="card-title">🎉 My University</h4>
+                    <p class="card-text">Starded a new project - <b>My University</b> web service and API on Rails framework</p>
+                    <p>At this day I made a first commit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<%= render "layouts/footer" %>
+</div>
