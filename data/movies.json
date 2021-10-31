@@ -19,16 +19,6 @@
             "name": "LOVE DEATH + ROBOTS",
             "url": "https://en.wikipedia.org/wiki/Love,_Death_%26_Robots",
             "image": "movies/ldr.jpg"
-        },
-        {
-            "name": "Altered Carbon",
-            "url": "https://en.wikipedia.org/wiki/Altered_Carbon_(TV_series)",
-            "image": "movies/ac.jpg"
-        },
-        {
-            "name": "The Matrix",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix",
-            "image": "movies/tm.png"
-        }   
+        }
     ]
 }

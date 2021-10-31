@@ -16,6 +16,11 @@
             "image": "games/heartstone.jpg"
         },
         {
+            "name": "Lineage 2",
+            "url": "https://en.wikipedia.org/wiki/Lineage_II",
+            "image": "games/l2.jpg"
+        },
+        {
             "name": "Diablo 2",
             "url": "https://en.wikipedia.org/wiki/Diablo_II",
             "image": "games/d2.jpg"
