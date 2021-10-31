@@ -1,0 +1,152 @@
+{
+    "timeline":
+    [
+        {
+            "date": "22 July 2021",
+            "title": "✳️ New Release - My University",
+            "description": "*This is more like a test record*<br />New version of **My University** iOS app is published"
+        },
+        {
+            "date": "16 March 2020",
+            "title": "Clowder",
+            "description": "I'm started working as iOS apps Developer at Clowder company. First fully remote job."
+        },
+        {
+            "date": "",
+            "title": "",
+            "description": "",
+            "comment": "October 2020 - Apple unleashes M1 💻"
+        },
+        {
+            "date": "March 2020",
+            "title": "App Dev Academy",
+            "description": "I'm finished working at App Dev Academy, 4+ years of work<br /> I worked there as Software Developer, building apps for iOS, iPadOS and macOS <br /> Here I took a part of developing, publishing and supporting of more than 10 iOS apps and 1 macOS app."
+        },
+        {
+            "date": "",
+            "title": "",
+            "description": "",
+            "comment": "2020 - Coronavirus 🦠"
+        },
+        {
+            "date": "July 2019",
+            "title": "🧑‍🍼 Eve",
+            "description": "My daughter is born ❤️ <br /> It's incredible feeling to be a father."
+        },
+        {
+            "date": "24 December 2018",
+            "title": "🎉 My University",
+            "description": "Starded a new project - My University web service and API on Rails framework. At this day I made a first commit"
+        },
+        {
+            "date": "???",
+            "title": "Infantio",
+            "description": "Started working on iOS app - Infantio"
+        },
+        {
+            "date": "???",
+            "title": "Roadio",
+            "description": "Started working on iOS app - Roadio"
+        },
+        {
+            "date": "???",
+            "title": "Look Up",
+            "description": "Started working on iOS app - Look Up"
+        },
+        {
+            "date": "???",
+            "title": "PROVEIT",
+            "description": "Started working on iOS app - PROVEIT"
+        },
+        {
+            "date": "???",
+            "title": "Chronograph macOS",
+            "description": "Started working on new macOS app - Chronograph"
+        },
+        {
+            "date": "???",
+            "title": "Chronograph iOS",
+            "description": "Started working on new iOS app - Chronograph"
+        },
+        {
+            "date": "???",
+            "title": "Cashbox",
+            "description": "First comercial iOS app"
+        },
+        {
+            "date": "January 2016",
+            "title": "App Dev Academy",
+            "description": "Starded working at App Dev Academy"
+        },
+        {
+            "date": "January 2016",
+            "title": "SumDU",
+            "description": "Started working on SumDU. <br /> This is first iOS app, published to App Store, that i'm worked on."
+        },
+        {
+            "date": "January 2016",
+            "title": "bvblogic",
+            "description": "Finished working at bvblogic, 3 years and 7 months 🤯"
+        },
+        {
+            "date": "",
+            "title": "",
+            "description": "",
+            "comment": "June 2014 - Apple announces Swift programming language"
+        },
+        {
+            "date": "December 2013",
+            "title": "First MacBook",
+            "description": "I bought my first MacBook! 🎉 <br /> It's 13 inch MacBook Pro with Mac OS Mavericks on the board. It was realy HUGE event for me.",
+            "data": {
+                "image": "timeline/macbook_2013.jpeg"
+            }
+        },
+        {
+            "date": "July 2012",
+            "title": "bvblogic",
+            "description": "Starded working at bvblogic as Web Developer. I build websites on PHP programming language, using frameworks such as Laravel, Kohana, Codeigniter, Yii. Also I used CSS3, HTML5, jQuery and Bootstrap for frontend. <br /> First expirience of building and supporting comercial projects."
+        },
+        {
+            "date": "2012",
+            "title": "Bachelor of Computer Science",
+            "description": "Received a bachelor's degree at Sumy State University"
+        },
+        {
+            "date": "2011 - 2012",
+            "title": "Senior Laboratory",
+            "description": "I'm worked as Java developer at Laboratory of distance learning at Sumy State University. I made simple training apps for student on Java and on internal framework. Also, I converted  Miscrofit Word documents to HTML pages as part of my job there."
+        },
+        {
+            "date": "September 2009",
+            "title": "Faculty of Electronics and Information Technology",
+            "description": "Started studying Computer Science at Sumy State University"
+        },
+        {
+            "date": "July 2009",
+            "title": "Junior Specialist",
+            "description": "Finished studying at technic college in Konotop by speciality *\"Service of computer and intellectual systems and networks\"*"
+        },
+        {
+            "date": "",
+            "title": "",
+            "description": "",
+            "comment": "June 29, 2007 - first iPhone released 📱"
+        },
+        {
+            "date": "2007 - 2008",
+            "title": "Laboratory Technician",
+            "description": "At college my job was to configure, maintaine and update PC's on Windows 98 and XP. Also helps student to made theirs home work done."
+        },
+        {
+            "date": "2005",
+            "title": "Faculty of Electronics and Information Systems",
+            "description": "Started studying at technician college in Konotop city, Ukraine"
+        },
+        {
+            "date": "2004",
+            "title": "Intel 486 Notebook",
+            "description": "With MS-DOS operating sysetm and Norton Commander. It was already old and outdated at that time. Still has this notebook somewhere."
+        }
+    ]
+}

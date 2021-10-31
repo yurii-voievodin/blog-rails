@@ -27,6 +27,9 @@ class MainController < ApplicationController
   end
 
   def timeline
+    timeline_json = File.read("data/timeline.json")
+    @timeline = JSON.parse(timeline_json)['timeline']
+
     render "main/timeline"
   end
 
