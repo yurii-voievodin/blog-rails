@@ -9,70 +9,42 @@
             <h4>📷 Some of my favorite photos</h4>
 
             <div class="row mt-4">
+                <% @photos.each_slice(3) do |slice| %>
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                    <%= image_pack_tag '4.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
-                    <%= image_pack_tag '7.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
-                    <%= image_pack_tag '9.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
-                </div>
 
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <%= image_pack_tag '8.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
-                    <%= image_pack_tag '5.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
-                    <%= image_pack_tag '1.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
-                </div>
+                    <% slice.each do |photo| %>
+                    <%= image_pack_tag photo['name'], class: "w-100 shadow-1-strong rounded mb-4" %>
+                    <% end %>
 
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <%= image_pack_tag '3.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
-                    <%= image_pack_tag '6.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
-                    <%= image_pack_tag '2.jpeg', class: "w-100 shadow-1-strong rounded mb-4" %>
                 </div>
+                <% end %>
             </div>
         </div>
     </div>
 
-    <div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3">
-        <div class="col">
-            <h4>🍿 I'm watching (movies + TV series)</h4>
-
-            <div class="row mt-4">
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'dune.jpg', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://en.wikipedia.org/wiki/Dune_(2021_film)" rel="nofollow" target="_blank" class="link-danger">Dune</a>
-                    </div>
-
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'Altered_Carbon_title.jpg', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://en.wikipedia.org/wiki/Altered_Carbon_(TV_series)" rel="nofollow" target="_blank" class="link-danger">Altered Carbon</a>
-                    </div>
+    <div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>🍿 I'm watching (movies + TV series)</h4>
                 </div>
 
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'The.Matrix.glmatrix.2.png', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://en.wikipedia.org/wiki/The_Matrix" rel="nofollow" target="_blank" class="link-danger">The Matrix</a>
-                    </div>
+                <% @movies.each do |movie| %>
 
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'The_Morning_Show.png', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://en.wikipedia.org/wiki/The_Morning_Show_(American_TV_series)" rel="nofollow" target="_blank" class="link-danger">Morning Show</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'ldr-main.jpg', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://en.wikipedia.org/wiki/Love,_Death_%26_Robots" rel="nofollow" target="_blank" class="link-danger">LOVE DEATH + ROBOTS</a>
-                    </div>
-
-                    <div class="w-100 rounded mb-4">
-                        <div class="row">
-                            <%= image_pack_tag 'See_(TV_series)_poster.jpg', class: "shadow-1-strong rounded img-fluid" %>
-                            <a href="https://en.wikipedia.org/wiki/See_(TV_series)" rel="nofollow" target="_blank" class="link-danger">See</a>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card my-3 bg-dark border-dark">
+                        <div class="card-thumbnail">
+                            <%= image_pack_tag movie['image'], class: "rounded img-fluid" %>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title fw-light">
+                                <a href="<%= movie['url'] %>" rel="nofollow" target="_blank" class="link-danger text-decoration-none"><%= movie['name'] %></a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
+                <% end %>
             </div>
         </div>
     </div>
@@ -81,46 +53,40 @@
         <div class="col">
             <h4>📖 I'm reading</h4>
             <ul class="list-unstyled">
-                <li><a href="https://en.wikipedia.org/wiki/Dune_(franchise)" rel="nofollow" target="_blank" class="link-info">Dune book series</a></li>
-
-                <li><a href="https://en.wikipedia.org/wiki/Foundation_series" rel="nofollow" target="_blank" class="link-info">Foundation series</a></li>
+                <% @books.each do |book| %>
+                <li>
+                    <a href="<%= book['url'] %>" rel="nofollow" target="_blank" class="text-decoration-none"><%= book['name'] %></a>
+                </li>
+                <% end %>
             </ul>
         </div>
     </div>
 
-    <div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3">
-        <div class="col">
-            <h4>🎮 I'm playing (iPad + Mac + PS5)</h4>
+    <div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>🎮 I'm playing (iPad + Mac + PS5)</h4>
+                </div>
 
-            <div class="row mt-4">
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'heartstone.jpg', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://playhearthstone.com/en-us" rel="nofollow" target="_blank" class="link-danger">Heartstone</a>
-                    </div>
+                <% @games.each do |game| %>
 
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'b5.jpg', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://en.wikipedia.org/wiki/Battlefield_V" rel="nofollow" target="_blank" class="link-danger">Battlefield V</a>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card my-3 bg-dark border-dark">
+                        <div class="card-thumbnail">
+                            <%= image_pack_tag game['image'], class: "rounded img-fluid" %>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title fw-light">
+                                <a href="<%= game['url'] %>" rel="nofollow" target="_blank" class="link-danger text-decoration-none"><%= game['name'] %></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'heroes_of_the_storm.jpg', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://en.wikipedia.org/wiki/Heroes_of_the_Storm" rel="nofollow" target="_blank" class="link-danger">Heroes of the Storm</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <div class="w-100 rounded mb-4">
-                        <%= image_pack_tag 'd2.jpg', class: "shadow-1-strong rounded img-fluid" %>
-                        <a href="https://en.wikipedia.org/wiki/Diablo_II" rel="nofollow" target="_blank" class="link-danger">Diablo 2</a>
-                    </div>
-                </div>
+                <% end %>
             </div>
         </div>
-
     </div>
 
     <%= render "layouts/footer" %>

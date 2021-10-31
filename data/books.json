@@ -1,0 +1,12 @@
+{
+    "books": [
+        {
+            "name": "Dune book series",
+            "url": "https://en.wikipedia.org/wiki/Dune_(franchise)"
+        },
+        {
+            "name": "Foundation series",
+            "url": "https://en.wikipedia.org/wiki/Foundation_series"
+        }
+    ]
+}

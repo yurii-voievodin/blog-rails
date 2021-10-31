@@ -1,0 +1,29 @@
+{
+    "games": [
+        {
+            "name": "Battlefield V",
+            "url": "https://uk.wikipedia.org/wiki/Battlefield_V",
+            "image": "games/b5.jpg"
+        },
+        {
+            "name": "Heroes of the Storm",
+            "url": "https://uk.wikipedia.org/wiki/Heroes_of_the_Storm",
+            "image": "games/heroes_of_the_storm.jpg"
+        },
+        {
+            "name": "Heartstone",
+            "url": "https://playhearthstone.com/en-us",
+            "image": "games/heartstone.jpg"
+        },
+        {
+            "name": "Lineage 2",
+            "url": "https://uk.wikipedia.org/wiki/Lineage_II",
+            "image": "games/l2.jpg"
+        },
+        {
+            "name": "Diablo 2",
+            "url": "https://uk.wikipedia.org/wiki/Diablo_II",
+            "image": "games/d2.jpg"
+        }
+    ]
+}

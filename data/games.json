@@ -1,0 +1,24 @@
+{
+    "games": [
+        {
+            "name": "Battlefield V",
+            "url": "https://en.wikipedia.org/wiki/Battlefield_V",
+            "image": "games/b5.jpg"
+        },
+        {
+            "name": "Heroes of the Storm",
+            "url": "https://en.wikipedia.org/wiki/Heroes_of_the_Storm",
+            "image": "games/heroes_of_the_storm.jpg"
+        },
+        {
+            "name": "Heartstone",
+            "url": "https://playhearthstone.com/en-us",
+            "image": "games/heartstone.jpg"
+        },
+        {
+            "name": "Diablo 2",
+            "url": "https://en.wikipedia.org/wiki/Diablo_II",
+            "image": "games/d2.jpg"
+        }
+    ]
+}
