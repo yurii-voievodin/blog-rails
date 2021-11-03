@@ -54,7 +54,7 @@
                     <% if event.key?("data") %>
                     <% data = event["data"] %>
                     <div>
-                        <%= image_pack_tag data["image"], class: "img-thumbnail" %>
+                        <%= image_pack_tag data["image"], class: "img-thumbnail w-50 h-50" %>
                     </div>
                     <% end %>
                     
@@ -69,12 +69,20 @@
 
     <div class="row">
         <div class="col-auto text-center flex-column d-none d-sm-flex">
-            <div class="row h-50"></div>
-            <%= image_pack_tag 'dot.svg', class: "rounded-circle mx-auto d-block mt-2", size: '25x25' %>
+            <div class="vr h-50 mx-4 mb-2"></div>
+            <%= image_pack_tag 'dot.svg', class: "rounded-circle mx-auto d-block", size: '25x25' %>
             <div class="h-50 mx-4 mt-4"></div>
         </div>
 
-        <div class="col py-2"></div>
+        <div class="col py-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="float-right text-muted">July 1990</div>
+                    <h4 class="card-title">When it's all started</h4>
+                    <div class="card-text"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </div>

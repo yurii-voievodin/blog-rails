@@ -2,9 +2,12 @@
     "timeline":
     [
         {
-            "date": "22 July 2021",
-            "title": "✳️ New Release - My University",
-            "description": "*This is more like a test record*<br />New version of **My University** iOS app is published"
+            "date": "March 2021",
+            "title": "Home office",
+            "description": "Home office setup - version 2021 <br /> **MacBook Air M1** is 🔥",
+            "data": {
+                "image": "timeline/home_office_2021.jpeg"
+            }
         },
         {
             "date": "16 March 2020",
@@ -20,7 +23,10 @@
         {
             "date": "March 2020",
             "title": "App Dev Academy",
-            "description": "I'm finished working at App Dev Academy, 4+ years of work<br /> I worked there as Software Developer, building apps for iOS, iPadOS and macOS <br /> Here I took a part of developing, publishing and supporting of more than 10 iOS apps and 1 macOS app."
+            "description": "I'm finished working at App Dev Academy, 4+ years of work<br /> I worked there as Software Developer, building apps for iOS, iPadOS and macOS <br /> Here I took a part of developing, publishing and supporting of more than 10 iOS apps and 1 macOS app.",
+            "data": {
+                "image": "timeline/office.jpg"
+            }
         },
         {
             "date": "",
@@ -31,7 +37,10 @@
         {
             "date": "July 2019",
             "title": "🧑‍🍼 Eve",
-            "description": "My daughter is born ❤️ <br /> It's incredible feeling to be a father."
+            "description": "My daughter is born ❤️ <br /> It's incredible feeling to be a father.",
+            "data": {
+                "image": "timeline/eve.jpg"
+            }
         },
         {
             "date": "24 December 2018",
@@ -49,44 +58,71 @@
             "description": "Started working on iOS app - Roadio"
         },
         {
-            "date": "???",
+            "date": "June 2019",
             "title": "Look Up",
-            "description": "Started working on iOS app - Look Up"
+            "description": "Started working on iOS app - Look Up",
+            "data": {
+                "image": "timeline/lookup.jpg"
+            }
         },
         {
-            "date": "???",
+            "date": "March 2017",
             "title": "PROVEIT",
-            "description": "Started working on iOS app - PROVEIT"
+            "description": "Started working on iOS app - PROVEIT <br /><br /> TechCrunch about PROVEIT - [Bet money on yourself with Proveit, the 1-vs-1 trivia app](https://techcrunch.com/2018/06/18/proveit-trivia)",
+            "data": {
+                "image": "timeline/proveit.jpg"
+            }
         },
         {
-            "date": "???",
-            "title": "Chronograph macOS",
-            "description": "Started working on new macOS app - Chronograph"
+            "date": "",
+            "title": "",
+            "description": "",
+            "comment": "**July 2016 - February 2017** <br /> Some count of other small iOS apps"
         },
         {
-            "date": "???",
+            "date": "July 2016",
             "title": "Chronograph iOS",
-            "description": "Started working on new iOS app - Chronograph"
+            "description": "Started working on new iOS app - [Chronograph](https://apps.apple.com/app/chronograph/id1281918814). In-house application (App Dev Academy) with time tracking and task managment. <br /><br /> My role: <br /> * Design iOS app architecture and create app from scratch <br /> * Design CoreData database architecture",
+            "data": {
+                "image": "timeline/chronograph_ios_collage.jpg"
+            }
         },
         {
-            "date": "???",
+            "date": "June 2016",
             "title": "Cashbox",
-            "description": "First comercial iOS app"
+            "description": "First comercial iOS app <br /><br /> Main challenges for me here was: <br /> * Implement sync with remove API and store data on device using CoreData <br /> * Implement UI with charts and iPad support <br /> * Codebase on Swift 1-2 (still raw and evolving at that time)",
+            "data": {
+                "image": "timeline/cashbox.jpg"
+            }
+        },
+        {
+            "date": "March 2016",
+            "title": "Chronograph macOS",
+            "description": "Started working on new macOS app - [Chronograph](https://apps.apple.com/ua/app/chronograph-my-productivity/id1316023026?mt=12) <br /> In-house application (App Dev Academy) with time tracking and task managment",
+            "data": {
+                "image": "timeline/chronograph_old.jpg"
+            }
         },
         {
             "date": "January 2016",
             "title": "App Dev Academy",
-            "description": "Starded working at App Dev Academy"
+            "description": "Starded working with App Dev Academy, small company of people form Sumy, Ukraine."
         },
         {
             "date": "January 2016",
             "title": "SumDU",
-            "description": "Started working on SumDU. <br /> This is first iOS app, published to App Store, that i'm worked on."
+            "description": "Started working on [SumDU](https://apps.apple.com/ua/app/id698235283) <br /> This is first iOS app, published to the App Store, that i'm worked on. <br /> Souce code on GitHub - [sumdu-ios](https://github.com/appdev-academy/sumdu-ios) <br /><br /> For me, main challenges here was to implement custom navigation bar with nice and smooth animation. And implement custom layout for iPad veriosn of the app.",
+            "data": {
+                "image": "timeline/sumdu.jpg"
+            }
         },
         {
             "date": "January 2016",
             "title": "bvblogic",
-            "description": "Finished working at bvblogic, 3 years and 7 months 🤯"
+            "description": "Finished working at bvblogic, 3 years and 7 months 🤯 <br/ >I build websites on PHP programming language, using frameworks such as Laravel, Kohana, Codeigniter, Yii. Also I used CSS3, HTML5, jQuery and Bootstrap for frontend. <br /> First expirience of building and supporting comercial projects.",
+            "data": {
+                "image": "timeline/bvblogic.jpg"
+            }
         },
         {
             "date": "",
@@ -103,9 +139,17 @@
             }
         },
         {
+            "date": "July 2013",
+            "title": "First iPhone",
+            "description": "I bought my first iPhone! <br /> It was a used iPhone 3GS in white color",
+            "data": {
+                "image": "timeline/iphone_3gs.jpeg"
+            }
+        },
+        {
             "date": "July 2012",
             "title": "bvblogic",
-            "description": "Starded working at bvblogic as Web Developer. I build websites on PHP programming language, using frameworks such as Laravel, Kohana, Codeigniter, Yii. Also I used CSS3, HTML5, jQuery and Bootstrap for frontend. <br /> First expirience of building and supporting comercial projects."
+            "description": "Starded working at bvblogic as Web Developer"
         },
         {
             "date": "2012",
