@@ -7,22 +7,29 @@
             "description": "Home office setup - version 2021 <br /> **MacBook Air M1** is 🔥",
             "data":
             {
-                "image": "timeline/home_office_2021.jpeg"
-            },
-            "symbol":
-            {
-                "icon": "bi-laptop",
-                "color": "gray"
+                "image":
+                {
+                    "path": "timeline/home_office_2021.jpeg",
+                    "id": "home_office_2021"
+                },
+                "symbol":
+                {
+                    "icon": "bi-laptop",
+                    "color": "gray"
+                }
             }
         },
         {
             "date": "16 March 2020",
             "title": "Clowder",
-            "description": "I'm started working as iOS apps Developer at Clowder company. First fully remote job.",
-            "symbol":
+            "description": "I'm started working as iOS apps Developer at [Clowder](https://www.clowder.com/) company. First fully remote job. <br /> My mission here is to support 50+ projects (iOS apps).",
+            "data":
             {
-                "icon": "bi-flower2",
-                "color": "cornflowerblue"
+                "symbol":
+                {
+                    "icon": "bi-flower2",
+                    "color": "cornflowerblue"
+                }
             }
         },
         {
@@ -37,12 +44,16 @@
             "description": "I'm finished working at App Dev Academy, 4+ years of work<br /> I worked there as Software Developer, building apps for iOS, iPadOS and macOS <br /> Here I took a part of developing, publishing and supporting of more than 10 iOS apps and 1 macOS app.",
             "data":
             {
-                "image": "timeline/office.jpg"
-            },
-            "symbol":
-            {
-                "icon": "bi-circle",
-                "color": "gray"
+                "image":
+                {
+                    "path": "timeline/office.jpeg",
+                    "id": "office"
+                },
+                "symbol":
+                {
+                    "icon": "bi-circle",
+                    "color": "gray"
+                }
             }
         },
         {
@@ -57,42 +68,42 @@
             "description": "My daughter is born <br /> It's incredible feeling to be a father",
             "data":
             {
-                "image": "timeline/eve.jpg"
-            },
-            "symbol":
-            {
-                "icon": "bi-heart",
-                "color": "red"
+                "image":
+                {
+                    "path": "timeline/eve.jpeg",
+                    "id": "eve"
+                },
+                "symbol":
+                {
+                    "icon": "bi-heart",
+                    "color": "red"
+                }
             }
         },
         {
-            "date": "24 December 2018",
-            "title": "🎉 My University",
-            "description": "Starded a new project - My University web service and API on Rails framework. At this day I made a first commit",
-            "symbol":
-            {
-                "icon": "bi-terminal",
-                "color": "gray"
-            }
-        },
-        {
-            "date": "???",
+            "date": "March 2020",
             "title": "Infantio",
-            "description": "Started working on iOS app - Infantio",
-             "symbol":
+            "description": "Started working on iOS app - [Infantio](https://apps.apple.com/app/infantio/id1504605743)",
+            "data":
             {
-                "icon": "bi-phone",
-                "color": "cornflowerblue"
+                "symbol":
+                {
+                    "icon": "bi-phone",
+                    "color": "cornflowerblue"
+                }
             }
         },
         {
-            "date": "???",
+            "date": "January 2020",
             "title": "Roadio",
-            "description": "Started working on iOS app - Roadio",
-             "symbol":
+            "description": "Started working on iOS app - [Roadio](https://apps.apple.com/app/roadio-the-trivia-ride/id1496607864)",
+            "data":
             {
-                "icon": "bi-phone",
-                "color": "cornflowerblue"
+                "symbol":
+                {
+                    "icon": "bi-phone",
+                    "color": "cornflowerblue"
+                }
             }
         },
         {
@@ -101,12 +112,29 @@
             "description": "Started working on iOS app - Look Up",
             "data":
             {
-                "image": "timeline/lookup.jpg"
-            },
-             "symbol":
+                "image":
+                {
+                    "path": "timeline/lookup.jpeg",
+                    "id": "lookup"
+                },
+                "symbol":
+                {
+                    "icon": "bi-phone",
+                    "color": "cornflowerblue"
+                }
+            }
+        },
+        {
+            "date": "24 December 2018",
+            "title": "🎉 My University",
+            "description": "Starded a new project - [My University](https://my-university.com.ua/) web service and API on Rails framework. At this day I made a first commit",
+            "data":
             {
-                "icon": "bi-phone",
-                "color": "cornflowerblue"
+                "symbol":
+                {
+                    "icon": "bi-terminal",
+                    "color": "gray"
+                }
             }
         },
         {
@@ -115,12 +143,16 @@
             "description": "Started working on iOS app - PROVEIT <br /><br /> TechCrunch about PROVEIT - [Bet money on yourself with Proveit, the 1-vs-1 trivia app](https://techcrunch.com/2018/06/18/proveit-trivia)",
             "data":
             {
-                "image": "timeline/proveit.jpg"
-            },
-             "symbol":
-            {
-                "icon": "bi-phone",
-                "color": "cornflowerblue"
+                "image":
+                {
+                    "path": "timeline/proveit.jpeg",
+                    "id": "proveit"
+                },
+                "symbol":
+                {
+                    "icon": "bi-phone",
+                    "color": "cornflowerblue"
+                }
             }
         },
         {
@@ -135,12 +167,16 @@
             "description": "Started working on new iOS app - [Chronograph](https://apps.apple.com/app/chronograph/id1281918814). In-house application (App Dev Academy) with time tracking and task managment. <br /><br /> My role: <br /> * Design iOS app architecture and create app from scratch <br /> * Design CoreData database architecture",
             "data":
             {
-                "image": "timeline/chronograph_ios_collage.jpg"
-            },
-             "symbol":
-            {
-                "icon": "bi-phone",
-                "color": "cornflowerblue"
+                "image":
+                {
+                    "path": "timeline/chronograph_ios_collage.jpeg",
+                    "id": "chronograph_ios_collage"
+                },
+                "symbol":
+                {
+                    "icon": "bi-phone",
+                    "color": "cornflowerblue"
+                }
             }
         },
         {
@@ -149,12 +185,11 @@
             "description": "First comercial iOS app <br /><br /> Main challenges for me here was: <br /> * Implement sync with remove API and store data on device using CoreData <br /> * Implement UI with charts and iPad support <br /> * Codebase on Swift 1-2 (still raw and evolving at that time)",
             "data":
             {
-                "image": "timeline/cashbox.jpg"
-            },
-              "symbol":
-            {
-                "icon": "bi-phone",
-                "color": "cornflowerblue"
+                "symbol":
+                {
+                    "icon": "bi-phone",
+                    "color": "cornflowerblue"
+                }
             }
         },
         {
@@ -163,22 +198,29 @@
             "description": "Started working on new macOS app - [Chronograph](https://apps.apple.com/ua/app/chronograph-my-productivity/id1316023026?mt=12) <br /> In-house application (App Dev Academy) with time tracking and task managment",
             "data":
             {
-                "image": "timeline/chronograph_old.jpg"
-            },
-            "symbol":
-            {
-                "icon": "bi-window",
-                "color": "teal"
+                "image":
+                {
+                    "path": "timeline/chronograph_old.jpeg",
+                    "id": "chronograph_old"
+                },
+                "symbol":
+                {
+                    "icon": "bi-window",
+                    "color": "teal"
+                }
             }
         },
         {
             "date": "January 2016",
             "title": "App Dev Academy",
             "description": "Starded working with App Dev Academy, small company of people form Sumy, Ukraine.",
-            "symbol":
+            "data":
             {
-                "icon": "bi-circle",
-                "color": "gray"
+                "symbol":
+                {
+                    "icon": "bi-circle",
+                    "color": "gray"
+                }
             }
         },
         {
@@ -187,12 +229,16 @@
             "description": "Started working on [SumDU](https://apps.apple.com/ua/app/id698235283) <br /> This is first iOS app, published to the App Store, that i'm worked on. <br /> Souce code on GitHub - [sumdu-ios](https://github.com/appdev-academy/sumdu-ios) <br /><br /> For me, main challenges here was to implement custom navigation bar with nice and smooth animation. And implement custom layout for iPad veriosn of the app.",
             "data":
             {
-                "image": "timeline/sumdu.jpg"
-            },
-            "symbol":
-            {
-                "icon": "bi-phone",
-                "color": "cornflowerblue"
+                "image":
+                {
+                    "path": "timeline/sumdu.png",
+                    "id": "sumdu"
+                },
+                "symbol":
+                {
+                    "icon": "bi-phone",
+                    "color": "cornflowerblue"
+                }
             }
         },
         {
@@ -201,12 +247,16 @@
             "description": "Finished working at bvblogic, 3 years and 7 months 🤯 <br/ >I build websites on PHP programming language, using frameworks such as Laravel, Kohana, Codeigniter, Yii. Also I used CSS3, HTML5, jQuery and Bootstrap for frontend. <br /> First expirience of building and supporting comercial projects.",
             "data":
             {
-                "image": "timeline/bvblogic.jpg"
-            },
-            "symbol":
-            {
-                "icon": "bi-at",
-                "color": "red"
+                "image":
+                {
+                    "path": "timeline/bvblogic.jpeg",
+                    "id": "bvblogic"
+                },
+                "symbol":
+                {
+                    "icon": "bi-at",
+                    "color": "red"
+                }
             }
         },
         {
@@ -221,12 +271,16 @@
             "description": "I bought my first MacBook! 🎉 <br /> It's 13 inch MacBook Pro with Mac OS Mavericks on the board. It was realy HUGE event for me.",
             "data":
             {
-                "image": "timeline/macbook_2013.jpeg"
-            },
-            "symbol":
-            {
-                "icon": "bi-apple",
-                "color": "teal"
+                "image":
+                {
+                    "path": "timeline/macbook_2013.jpeg",
+                    "id": "macbook_2013"
+                },
+                "symbol":
+                {
+                    "icon": "bi-apple",
+                    "color": "teal"
+                }
             }
         },
         {
@@ -235,62 +289,76 @@
             "description": "I bought my first iPhone! <br /> It was a used iPhone 3GS in white color",
             "data":
             {
-                "image": "timeline/iphone_3gs.jpeg"
-            },
-            "symbol":
-            {
-                "icon": "bi-apple",
-                "color": "gray"
+                "symbol":
+                {
+                    "icon": "bi-apple",
+                    "color": "gray"
+                }
             }
         },
         {
             "date": "July 2012",
             "title": "bvblogic",
-            "description": "Starded working at bvblogic as Web Developer",
-            "symbol":
+            "description": "Starded working at [bvblogic](https://bvblogic.com) as Web Developer",
+            "data":
             {
-                "icon": "bi-at",
-                "color": "red"
+                "symbol":
+                {
+                    "icon": "bi-at",
+                    "color": "red"
+                }
             }
         },
         {
             "date": "2012",
             "title": "Bachelor of Computer Science",
             "description": "Received a bachelor's degree at Sumy State University",
-            "symbol":
+            "data":
             {
-                "icon": "bi-check-circle",
-                "color": "teal"
+                "symbol":
+                {
+                    "icon": "bi-check-circle",
+                    "color": "teal"
+                }
             }
         },
         {
             "date": "2011 - 2012",
             "title": "Senior Laboratory",
             "description": "I'm worked as Java developer at Laboratory of distance learning at Sumy State University. I made simple training apps for student on Java and on internal framework. Also, I converted  Miscrofit Word documents to HTML pages as part of my job there.",
-            "symbol":
+            "data":
             {
-                "icon": "bi-keyboard",
-                "color": "gray"
+                "symbol":
+                {
+                    "icon": "bi-keyboard",
+                    "color": "gray"
+                }
             }
         },
         {
             "date": "September 2009",
             "title": "Faculty of Electronics and Information Technology",
             "description": "Started studying Computer Science at Sumy State University",
-            "symbol":
+            "data":
             {
-                "icon": "bi-pen",
-                "color": "gray"
+                "symbol":
+                {
+                    "icon": "bi-pen",
+                    "color": "gray"
+                }
             }
         },
         {
             "date": "July 2009",
             "title": "Junior Specialist",
             "description": "Finished studying at technic college in Konotop by speciality *\"Service of computer and intellectual systems and networks\"*",
-            "symbol":
+            "data":
             {
-                "icon": "bi-check-circle",
-                "color": "teal"
+                "symbol":
+                {
+                    "icon": "bi-check-circle",
+                    "color": "teal"
+                }
             }
         },
         {
@@ -303,30 +371,39 @@
             "date": "2007 - 2008",
             "title": "Laboratory Technician",
             "description": "At college my job was to configure, maintaine and update PC's on Windows 98 and XP. Also helps student to made theirs home work done.",
-            "symbol":
+            "data":
             {
-                "icon": "bi-keyboard",
-                "color": "gray"
+                "symbol":
+                {
+                    "icon": "bi-keyboard",
+                    "color": "gray"
+                }
             }
         },
         {
             "date": "2005",
             "title": "Faculty of Electronics and Information Systems",
             "description": "Started studying at technician college in Konotop city, Ukraine",
-            "symbol":
+            "data":
             {
-                "icon": "bi-cpu",
-                "color": "gray"
+                "symbol":
+                {
+                    "icon": "bi-cpu",
+                    "color": "gray"
+                }
             }
         },
         {
             "date": "2004",
             "title": "Intel 486 Notebook",
             "description": "With MS-DOS operating sysetm and Norton Commander. It was already old and outdated at that time. Still has this notebook somewhere.",
-            "symbol":
+            "data":
             {
-                "icon": "bi-laptop",
-                "color": "gray"
+                "symbol":
+                {
+                    "icon": "bi-laptop",
+                    "color": "gray"
+                }
             }
         }
     ]
