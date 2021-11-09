@@ -14,8 +14,8 @@
                 <% if event['date'] == "" && event['title'] == "" && event['description'] == "" && event['comment'] != "" %>
 
                 <div class="row">
-                    <div class="col-sm-1"><div class="vr h-100 mx-4"></div></div>
-                    <div class="col">
+                    <div class="col-auto text-center flex-column d-none d-sm-flex"><div class="vr h-100 mx-4"></div></div>
+                    <div class="col px-4">
                         <p><%= markdown(event['comment']) %></p>
                     </div>
                 </div>
