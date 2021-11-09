@@ -20,6 +20,25 @@
             }
         },
         {
+            "date": "10 February 2021",
+            "title": "",
+            "description": "I've started part-time remote work at [CoachNow](https://coachnow.io) company<br /><br /> My main responsibility here is to support the [CoachNow app](https://apps.apple.com/app/coachnow-coaching-platform/id596598472) (iOS and iPadOS) and add new features.<br />It's an app with a long history (7+ years) and mixed codebase (Objective C and Swift) with a lot of dependencies.",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-keyboard",
+                    "color": "gray"
+                }
+            }
+        },
+        {
+            "date": "",
+            "title": "",
+            "description": "",
+            "comment": "**October 2020**<br />Apple unleashes M1 💻"
+        },
+        {
             "date": "16 March 2020",
             "title": "",
             "description": "I'm started working as an **iOS apps Developer** at [Clowder](https://www.clowder.com/) company. First fully remote job. <br /> *My mission* here is to support **50+ projects** (iOS apps).",
@@ -31,12 +50,6 @@
                     "color": "cornflowerblue"
                 }
             }
-        },
-        {
-            "date": "",
-            "title": "",
-            "description": "",
-            "comment": "**October 2020**<br />Apple unleashes M1 💻"
         },
         {
             "date": "March 2020",
