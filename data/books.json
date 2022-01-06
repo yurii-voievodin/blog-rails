@@ -1,0 +1,20 @@
+{
+    "books": [
+        {
+            "name": "Foundation series",
+            "url": "https://en.wikipedia.org/wiki/Foundation_series"
+        },
+        {
+            "name": "Dune book series",
+            "url": "https://en.wikipedia.org/wiki/Dune_(franchise)"
+        },
+        {
+            "name": "Ready Player One",
+            "url": "https://en.wikipedia.org/wiki/Ready_Player_One"
+        },
+        {
+            "name": "The Innovators",
+            "url": "https://en.wikipedia.org/wiki/The_Innovators_(book)"
+        }
+    ]
+}

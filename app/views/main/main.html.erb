@@ -1,10 +1,18 @@
 <% @title = "Yura Voevodin" %>
 <%= render "layouts/header" %>
 
+<div class="row">
+    <div class="col-9 mx-auto">
+        <div class="alert alert-success d-flex align-items-center" role="alert">
+            <i class="bi bi-info-circle me-2"></i>
+            <div>Check out the new page - <%= link_to "Timeline", "timeline", class: "alert-link" %></div>
+        </div>
+    </div>    
+</div>
+
 <div class="col-9 mx-auto py-md-5">
 
     <div class="row">
-
         <div class="col">
             <h1>👋 Hello! My name is Yura</h1>
             <p class="fs-4">Experienced <code class="badge bg-dark text-wrap">software engineer<span class="blinking-cursor">|</span></code> with strong background in web technologies. Focused on creating products. Enthusiast and dreamer from Ukraine 🇺🇦</p>
@@ -15,79 +23,78 @@
         </div>
     </div>
 
-    <div class="row fs-5 p-3 bg-light border rounded-3">
+    <div class="row fs-5 p-3 mt-5 bg-light border rounded-3">
         <div class="container-fluid py-3 px-3">
+            <h4>😎 About</h4>
 
             <ul class="list-unstyled">
-                <li>I'm Yura Voevodin, from <a href="https://www.youtube.com/watch?v=qyMkAOd_Z9U" rel="nofollow" target="_blank">Sumy, Ukraine</a> and I'm glad that you took a time to visit this <a href="https://github.com/yura-voevodin/blog-rails" rel="nofollow" target="_blank">website</a></li>
+                <li>I'm Yura Voevodin, from <a href="https://www.youtube.com/watch?v=qyMkAOd_Z9U" rel="nofollow" target="_blank" class="link-dark">Sumy, Ukraine</a> and I'm glad that you took a time to visit this <a href="https://github.com/yura-voevodin/blog-rails" rel="nofollow" target="_blank" class="link-dark">website</a></li>
 
                 <li>I work as <code class="prettyprint">Software Engineer</code> and write code on <code class="prettyprint">Swift</code>, mainly building an iOS applications</li>
                 
-                <li>I also use <a href="https://rubyonrails.org" rel="nofollow" target="_blank">Ruby On Rails</a> framework for my <a href="/projects" rel="nofollow" target="_blank">own projects</a></li>
+                <li>I also use <a href="https://rubyonrails.org" rel="nofollow" target="_blank" class="link-dark">Ruby On Rails</a> framework for my <a href="/projects" rel="nofollow" target="_blank" class="link-dark">own projects</a></li>
             </ul>
 
-            <p>Feel free to ask me any questions and follow me on <a href="https://www.instagram.com/voevodin.yura" rel="nofollow" target="_blank">social media</a></p>
-
+            <p>Feel free to ask me any questions and follow me on <a href="https://www.instagram.com/voevodin.yura" rel="nofollow" target="_blank" class="link-dark">social media</a></p>
         </div>
     </div>
 
-    <div class="row fs-5 p-3 mt-4 text-white bg-dark rounded-3">
+    <div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3">
         <div class="container-fluid py-3 px-3">
             <h4>🚀 Experience</h4>
 
             <dl class="row mt-3">
               <dt class="col-sm-3">2020 - now</dt>
-              <dd class="col-sm-9">iOS Developer at <a href="https://www.clowder.com" rel="nofollow" target="_blank">Clowder</a></dd>
+              <dd class="col-sm-9">iOS Developer at <a href="https://www.clowder.com" rel="nofollow" target="_blank" class="link-info">Clowder</a></dd>
 
               <dt class="col-sm-3">2020 - now</dt>
-              <dd class="col-sm-9">iOS Developer at <a href="https://coachnow.io" rel="nofollow" target="_blank">CoachNow</a></dd>
+              <dd class="col-sm-9">iOS Developer at <a href="https://coachnow.io" rel="nofollow" target="_blank" class="link-info">CoachNow</a></dd>
 
               <dt class="col-sm-3">2016 - 2020</dt>
-              <dd class="col-sm-9">iOS, iPadOS and macOS Apps Developer at <a href="https://www.appdev.academy" rel="nofollow" target="_blank">App Dev Academy</a></dd>
+              <dd class="col-sm-9">iOS, iPadOS and macOS Apps Developer at <a href="https://www.appdev.academy" rel="nofollow" target="_blank" class="link-info">App Dev Academy</a></dd>
 
               <hr>
 
               <dt class="col-sm-3">2012 - 2016</dt>
-              <dd class="col-sm-9">PHP Developer at <a href="https://bvblogic.com" rel="nofollow" target="_blank">bvblogic</a></dd>
+              <dd class="col-sm-9">PHP Developer at <a href="https://bvblogic.com" rel="nofollow" target="_blank" class="link-info">bvblogic</a></dd>
 
               <dt class="col-sm-3">2012 - 2013</dt>
-              <dd class="col-sm-9">Senior Laboratory at <a href="https://dl.sumdu.edu.ua/en" rel="nofollow" target="_blank">Laboratory of distance learning</a> at <a href="https://sumdu.edu.ua/int/en" rel="nofollow" target="_blank">Sumy State University</a></dd>
+              <dd class="col-sm-9">Senior Laboratory at <a href="https://dl.sumdu.edu.ua/en" rel="nofollow" target="_blank" class="link-info">Laboratory of distance learning</a> at <a href="https://sumdu.edu.ua/int/en" rel="nofollow" target="_blank" class="link-info">Sumy State University</a></dd>
 
               <dt class="col-sm-3">2007 - 2008</dt>
-              <dd class="col-sm-9">Laboratory Technician at <a href="https://kpt.sumdu.edu.ua" rel="nofollow" target="_blank">Polytechnic College of Konotop Institute of the SSU</a></dd>
+              <dd class="col-sm-9">Laboratory Technician at <a href="https://kpt.sumdu.edu.ua" rel="nofollow" target="_blank" class="link-info">Polytechnic College of Konotop Institute of the SSU</a></dd>
           </dl>
       </div>
   </div>
 
-  <div class="row fs-5 p-3 mt-4 bg-light border rounded-3">
+  <div class="row fs-5 p-3 mt-5 bg-light border rounded-3">
     <div class="container-fluid py-3 px-3">
         <h4>🎓 Education</h4>
 
         <dl class="row mt-4">
             <dt class="col-sm-3">2012</dt>
-            <dd class="col-sm-9">Bachelor of Computer Science at <a href="https://sumdu.edu.ua/int/en" rel="nofollow" target="_blank">Sumy State University</a></dd>
+            <dd class="col-sm-9">Bachelor of Computer Science at <a href="https://sumdu.edu.ua/int/en" rel="nofollow" target="_blank" class="link-dark">Sumy State University</a></dd>
         </dl>
 
         <dl class="row">
             <dt class="col-sm-3">2009</dt>
-            <dd class="col-sm-9">Junior Specialist, Service of computer and intellectual systems and networks at <a href="https://kpt.sumdu.edu.ua" rel="nofollow" target="_blank">Polytechnic College of Konotop Institute of the SSU</a></dd>
+            <dd class="col-sm-9">Junior Specialist, Service of computer and intellectual systems and networks at <a href="https://kpt.sumdu.edu.ua" rel="nofollow" target="_blank" class="link-dark">Polytechnic College of Konotop Institute of the SSU</a></dd>
         </dl>
     </div>
 </div>
 
-<div class="row fs-5 p-3 mt-4 text-white bg-dark rounded-3">
+<div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3">
     <div class="container-fluid py-3 px-3">
         <h4>✉️ Contacts</h4>
 
-        <ul>
-            <li>Github <a href="https://github.com/yura-voevodin" rel="nofollow" target="_blank">yura-voevodin</a></li>
-            <li>Twitter <a href="https://twitter.com/voevodin_yura" rel="nofollow" target="_blank">@voevodin_yura</a></li>
-            <li>LinkedIn <a href="https://www.linkedin.com/in/yurivoevodin" rel="nofollow" target="_blank">yurivoevodin</a></li>
-            <li>Instagram <a href="https://www.instagram.com/voevodin.yura" rel="nofollow" target="_blank">@voevodin.yura</a></li>
-            <li>Facebook <a href="https://www.facebook.com/yura.voevodin" rel="nofollow" target="_blank">yura.voevodin</a></li>
-            <li>Telegram <a href="https://t.me/voevodin_yura" rel="nofollow" target="_blank">@voevodin_yura</a></li>
-            <li>Upwork <a href="https://www.upwork.com/freelancers/%7E01f49c60721b71f48b" rel="nofollow" target="_blank">Yura V.</a></li>
-            <li>Mail me <a href="mailto:voevodin.yura@icloud.com" rel="nofollow" target="_blank">voevodin.yura@icloud.com</a></li>
+        <ul class="list-unstyled">
+            <li>Github <a href="https://github.com/yura-voevodin" rel="nofollow" target="_blank" class="link-info">yura-voevodin</a></li>
+            <li>Twitter <a href="https://twitter.com/voevodin_yura" rel="nofollow" target="_blank" class="link-info">@voevodin_yura</a></li>
+            <li>LinkedIn <a href="https://www.linkedin.com/in/yurivoevodin" rel="nofollow" target="_blank" class="link-info">yurivoevodin</a></li>
+            <li>Instagram <a href="https://www.instagram.com/voevodin.yura" rel="nofollow" target="_blank" class="link-info">@voevodin.yura</a></li>
+            <li>Facebook <a href="https://www.facebook.com/yura.voevodin" rel="nofollow" target="_blank" class="link-info">yura.voevodin</a></li>
+            <li>Telegram <a href="https://t.me/voevodin_yura" rel="nofollow" target="_blank" class="link-info">@voevodin_yura</a></li>
+            <li>Upwork <a href="https://www.upwork.com/freelancers/%7E01f49c60721b71f48b" rel="nofollow" target="_blank" class="link-info">Yura V.</a></li>
         </ul>
     </div>
 </div>

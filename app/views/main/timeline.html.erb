@@ -1,0 +1,111 @@
+<% @title = "Yura Voevodin - Timeline" %>
+<%= render "layouts/header" %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-9 mx-auto py-md-3">
+
+            <h2 class="text-center">The Timeline</h2>
+
+            <div class="py-2 mt-4 mb-4">
+
+                <% @timeline.each_with_index do |event, index| %>
+
+                <% if event['date'] == "" && event['title'] == "" && event['description'] == "" && event['comment'] != "" %>
+
+                <div class="row">
+                    <div class="col-auto text-center flex-column d-none d-sm-flex"><div class="vr h-100 mx-4"></div></div>
+                    <div class="col px-4">
+                        <p><%= markdown(event['comment']) %></p>
+                    </div>
+                </div>
+
+                <% else %>
+
+                <div class="row">
+
+                    <div class="col-auto text-center flex-column d-none d-sm-flex">
+                        <% if index == 0 %>
+                        <div class="row h-50"></div>
+                        <% else %>
+                        <div class="vr h-50 mx-4 mb-2"></div>
+                        <% end %>
+
+                        <% if event.key?("data") %>
+                        <% data = event["data"] %>
+                        <% if data.key?("symbol") %>
+                        <% symbol = data["symbol"] %>
+                        <i class="bi <%= symbol['icon'] %>" style="font-size: 1.5rem; color: <%= symbol['color'] %>;"></i>
+                        <% else %>
+                        <%= image_pack_tag 'dot.svg', class: "rounded-circle mx-auto d-block", size: '25x25' %>
+                        <% end %>
+                        <% end %>
+
+                        <div class="vr h-50 mx-4 mt-2"></div>
+                    </div>
+
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-right text-muted" id="<%= event['date'].delete(' ') %>"><%= event['date'] %></div>
+                                <h4 class="card-title"><%= event['title'] %></h4>
+                                <div class="card-text">
+                                    <%= markdown(event['description']) %>
+                                </div>
+
+                                <% if event.key?("data") %>
+                                <% data = event["data"] %>
+                                <% if data.key?("image") %>
+                                <% image = data["image"] %>
+                                <div>
+                                    <img src="<%= image_path(image['path']) %>" class="img-thumbnail w-50 h-50" data-bs-toggle="modal" data-bs-target="#<%= image['id'] %>" />
+
+                                    <div class="modal fade" id="<%= image['id'] %>" tabindex="-1" aria-labelledby="imageModal" aria-hidden="true">
+                                      <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="<%= image_path(image['path']) %>" class="img-fluid" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <% end %>
+                            <% end %>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <% end %>
+
+            <% end %>
+
+            <div class="row">
+                <div class="col-auto text-center flex-column d-none d-sm-flex">
+                    <div class="vr h-50 mx-4 mb-2"></div>
+                    <i class="bi bi-heart" style="font-size: 1.5rem; color: red;"></i>
+                    <div class="h-50 mx-4 mt-4"></div>
+                </div>
+
+                <div class="col py-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="float-right text-muted">July 1990</div>
+                            <h4 class="card-title">When it's all started</h4>
+                            <div class="card-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <%= render "layouts/footer" %>
+    </div>
+</div>
+</div>

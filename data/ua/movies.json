@@ -1,0 +1,24 @@
+{
+    "movies": [
+        {
+            "name": "Бачити",
+            "url": "https://uk.wikipedia.org/wiki/Бачити_(телесеріал)",
+            "image": "movies/see.jpg"
+        },
+        {
+            "name": "Ранкове шоу",
+            "url": "https://uk.wikipedia.org/wiki/Ранкове_шоу_(телесеріал)",
+            "image": "movies/ms.png"
+        },
+        {
+            "name": "Дюна",
+            "url": "https://uk.wikipedia.org/wiki/Дюна_(фільм,_2021)",
+            "image": "movies/dune.jpg"
+        },
+        {
+            "name": "Любов, смерть і роботи",
+            "url": "https://uk.wikipedia.org/wiki/Любов,_смерть_і_роботи",
+            "image": "movies/ldr.jpg"
+        }
+    ]
+}

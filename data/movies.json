@@ -1,0 +1,24 @@
+{
+    "movies": [
+        {
+            "name": "See",
+            "url": "https://en.wikipedia.org/wiki/See_(TV_series)",
+            "image": "movies/see.jpg"
+        },
+        {
+            "name": "Morning Show",
+            "url": "https://en.wikipedia.org/wiki/The_Morning_Show_(American_TV_series)",
+            "image": "movies/ms.png"
+        },
+        {
+            "name": "Dune",
+            "url": "https://en.wikipedia.org/wiki/Dune_(2021_film)",
+            "image": "movies/dune.jpg"
+        },
+        {
+            "name": "LOVE DEATH + ROBOTS",
+            "url": "https://en.wikipedia.org/wiki/Love,_Death_%26_Robots",
+            "image": "movies/ldr.jpg"
+        }
+    ]
+}

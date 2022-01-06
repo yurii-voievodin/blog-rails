@@ -1,0 +1,93 @@
+<% @title = "Юра Воєводін - Особисте" %>
+<%= render "layouts/header_ua" %>
+
+<div class="col-9 mx-auto py-md-5">
+
+    <div class="row fs-5 p-3 bg-light border rounded-3">
+        <div class="col">
+
+            <h4>📷 Деякі з моїх улюблених фото</h4>
+
+            <div class="row mt-4">
+                <% @photos.each_slice(3) do |slice| %>
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+                    <% slice.each do |photo| %>
+                    <%= image_pack_tag photo['name'], class: "w-100 shadow-1-strong rounded mb-4" %>
+                    <% end %>
+
+                </div>
+                <% end %>
+            </div>
+        </div>
+    </div>
+
+    <div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="mb-3">🍿 Я дивлюся (фільми + серіали)</h4>
+                </div>
+
+                <% @movies.each do |movie| %>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card my-3 bg-dark border-dark">
+                        <div class="card-thumbnail">
+                            <%= image_pack_tag movie['image'], class: "rounded img-fluid" %>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title fw-light">
+                                <a href="<%= movie['url'] %>" rel="nofollow" target="_blank" class="link-danger text-decoration-none"><%= movie['name'] %></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <% end %>
+            </div>
+        </div>
+    </div>
+
+    <div class="row fs-5 p-3 mt-5 bg-light border rounded-3">
+        <div class="col">
+            <h4>📖 Я читаю</h4>
+            <ul class="list-unstyled">
+                <% @books.each do |book| %>
+                <li>
+                    <a href="<%= book['url'] %>" rel="nofollow" target="_blank" class="text-decoration-none"><%= book['name'] %></a>
+                </li>
+                <% end %>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>🎮 Граю</h4>
+                </div>
+
+                <% @games.each do |game| %>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card my-3 bg-dark border-dark">
+                        <div class="card-thumbnail">
+                            <%= image_pack_tag game['image'], class: "rounded img-fluid" %>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title fw-light">
+                                <a href="<%= game['url'] %>" rel="nofollow" target="_blank" class="link-danger text-decoration-none"><%= game['name'] %></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <% end %>
+            </div>
+        </div>
+    </div>
+
+<%= render "layouts/footer" %>
+</div>

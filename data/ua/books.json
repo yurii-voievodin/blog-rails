@@ -1,0 +1,21 @@
+{
+    "books":
+    [
+        {
+            "name": "Фундація",
+            "url": "https://uk.wikipedia.org/wiki/Фундація_(цикл_творів)"
+        },
+        {
+            "name": "Всесвіт Дюни",
+            "url": "https://uk.wikipedia.org/wiki/Дюна_(франшиза)"
+        },
+        {
+            "name": "Першому гравцеві приготуватися",
+            "url": "https://uk.wikipedia.org/wiki/Першому_гравцеві_приготуватися"
+        },
+        {
+            "name": "Інноватори",
+            "url": "https://uk.wikipedia.org/wiki/Інноватори_(книга)"
+        }
+    ]
+}
