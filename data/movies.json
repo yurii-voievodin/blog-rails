@@ -1,6 +1,21 @@
 {
     "movies": [
         {
+            "name": "Invasion",
+            "url": "https://en.wikipedia.org/wiki/Invasion_(2021_TV_series)",
+            "image": "movies/Invasion.jpeg"
+        },
+        {
+            "name": "Finch",
+            "url": "https://en.wikipedia.org/wiki/Finch_(film)",
+            "image": "movies/Finch.jpeg"
+        },
+        {
+            "name": "Foundation",
+            "url": "https://en.wikipedia.org/wiki/Foundation_(TV_series)",
+            "image": "movies/foundation.jpeg"
+        },
+        {
             "name": "See",
             "url": "https://en.wikipedia.org/wiki/See_(TV_series)",
             "image": "movies/see.jpg"
