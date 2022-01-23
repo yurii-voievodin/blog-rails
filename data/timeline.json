@@ -94,32 +94,6 @@
             }
         },
         {
-            "date": "March 2020",
-            "title": "",
-            "description": "Started working on the **iOS app** - [Infantio](https://apps.apple.com/app/infantio/id1504605743)",
-            "data":
-            {
-                "symbol":
-                {
-                    "icon": "bi-phone",
-                    "color": "cornflowerblue"
-                }
-            }
-        },
-        {
-            "date": "January 2020",
-            "title": "",
-            "description": "Started working on the **iOS app** - [Roadio](https://apps.apple.com/app/roadio-the-trivia-ride/id1496607864)",
-            "data":
-            {
-                "symbol":
-                {
-                    "icon": "bi-phone",
-                    "color": "cornflowerblue"
-                }
-            }
-        },
-        {
             "date": "June 2019",
             "title": "",
             "description": "Started working on the - *\"Look Up\"* <br /> Native **iOS app**, written in `Swift`.  Used **API** on remote server for receive a list of products and perform search by query or filters.",
@@ -140,7 +114,7 @@
         {
             "date": "24 December 2018",
             "title": "My University",
-            "description": "Started a new personal project - [My University](https://my-university.com.ua/) web service and API on `Rails` framework.<br />In this day, I made my first commit 🎉",
+            "description": "Started a new personal project - [My University](https://my-university.com.ua/) web service and API on `Rails` framework.<br />In this day, I made my first commit 🎉 <br /><br />*Technical info:* <br />- iOS app written in `Swift` <br />-  User interface created with Storyboards <br />- **MVC** architecture (with Dependency Injection) <br />- URLSession for network requests to **REST API** <br />- `CoreData` as offline storage <br /> - [Ruby On Rails](https://rubyonrails.org) for backend",
             "data":
             {
                 "image":
@@ -158,7 +132,7 @@
         {
             "date": "March 2017",
             "title": "",
-            "description": "Started working on the **iOS app** - [PROVEIT](https://apps.apple.com/app/proveit-real-money-games/id1219398758)<br />TechCrunch about PROVEIT - [Bet money on yourself with Proveit, the 1-vs-1 trivia app](https://techcrunch.com/2018/06/18/proveit-trivia)",
+            "description": "Started working on the **iOS app** - [PROVEIT](https://apps.apple.com/app/proveit-real-money-games/id1219398758)<br />TechCrunch about PROVEIT - [Bet money on yourself with Proveit, the 1-vs-1 trivia app](https://techcrunch.com/2018/06/18/proveit-trivia) <br /><br />*Technical info:* <br /> - Written in `Swift` <br /> - Cocoapods as dependency manager <br /> - **MVC** architecture <br /> - User interface created with **Storyboards** and **XIB** files <br /> - Apple Pay and Push Notifications integration <br /> - Third-party integrations: **Firebase**, **Crashlytics** <br /><br /> *Role and responsibilities:* <br /> - Design app architecture and create app from scratch <br /> - Implement networking layer - **REST API** <br /> - Implement **custom UI**",
             "data":
             {
                 "image":
