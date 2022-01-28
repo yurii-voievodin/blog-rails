@@ -2,6 +2,19 @@
     "timeline":
     [
         {
+            "date": "January 2022",
+            "title": "",
+            "description": "Finished working at the [Clowder](https://www.clowder.com/) company<br /><br />*Role and responsibilities:*<ul><li>Create copies (apps) of the **Core** product and enable/disable product modules</li><li>Integrate user profile with custom fields to the clones of the **Core** product</li><li>Work with Git by `GitFlow` methodology, resolve merge conflicts</li><li>Support existing apps and update to the latest **Core** version</li><li>Create proposals and make changes in the **Core** product</li></ul>",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-flower2",
+                    "color": "cornflowerblue"
+                }
+            }
+        },
+        {
             "date": "March 2021",
             "title": "",
             "description": "Home office setup, MacBook Air M1 is 🔥",
@@ -22,7 +35,7 @@
         {
             "date": "10 February 2021",
             "title": "",
-            "description": "Started working at the [CoachNow](https://coachnow.io) company. It's a part-time fully remove job.<br /><br /> *Main responsibility* here is to support the [CoachNow app](https://apps.apple.com/app/coachnow-coaching-platform/id596598472) (**iOS** and **iPadOS**) and add new features. It's an app with a long history (**7+ years**) and mixed codebase (`Objective C` and `Swift`) with a lot of dependencies.",
+            "description": "Started working at the [CoachNow](https://coachnow.io) company. It's a part-time fully remove job.<br /><br /> *Main responsibility* here is to support the [CoachNow app](https://apps.apple.com/app/coachnow-coaching-platform/id596598472) (**iOS** and **iPadOS**) and add new features. It's an app with a long history (**8+ years**) and mixed codebase (`Objective-C` and `Swift`) with a lot of dependencies.",
             "data":
             {
                 "symbol":
@@ -54,7 +67,7 @@
         {
             "date": "March 2020",
             "title": "",
-            "description": "Finished working at the App Dev Academy.<br />Worked there for more than **4 years** as **Software Developer**, participated in develpment, publication, and support of **more than 10 iOS apps** and **1 macOS app**.",
+            "description": "Finished working at the App Dev Academy.<br />Worked there for more than **4 years** as Software Developer, participated in development, publication, and support of **10+ iOS apps** and one macOS app. <br /><br />*Role and responsibilities:*<ul><li>Design an architecture and create an apps from scratch</li><li>Create user interface with **Storyboards** and **XIB** files</li><li>Use `UIKit` and create **custom UI** components</li><li>Design a database architecture and use `CoreData` framework</li><li>Write code on `Swift` programming language</li><li>Implement networking layer - **REST API**</li><li>Integrate third-party dependencies (**Firebase**, **Crashlytics**, etc.)</li></ul>",
             "data":
             {
                 "image":
@@ -317,7 +330,7 @@
         {
             "date": "2011 - 2012",
             "title": "Senior Laboratory",
-            "description": "I'm worked as a **Java developer** at *\"Laboratory of distance learning\"* at *Sumy State University*. I made simple training apps for students on `Java` and an internal framework. Also, I converted  Microsoft Word documents to `HTML` pages as part of my job there.",
+            "description": "I worked as a **Java developer** at *\"Laboratory of distance learning\"* at *Sumy State University*. I made simple training apps for students on `Java` and an internal framework. Also, I converted  Microsoft Word documents to `HTML` pages as part of my job there.",
             "data":
             {
                 "symbol":
