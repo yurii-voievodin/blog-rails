@@ -6,15 +6,18 @@ class MainController < ApplicationController
     skills_list = [
       "Git",
       "OOP",
+      "POP",
       "Swift",
       "MVC",
       "UIKit",
+      "Storyboars",
       "Auto Layout",
       "SwiftUI",
       "Core Data",
       "REST API",
+      "In-App Purchase",
       "TestFlight",
-      "In-App Purchase"
+      "App Store Connect"
     ]
     contacts_list = [
       { link: "https://github.com/yura-voevodin", icon: "bi-github" },
