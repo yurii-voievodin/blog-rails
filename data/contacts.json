@@ -1,0 +1,29 @@
+{
+    "contacts":
+    [
+        {
+            "url": "https://github.com/yura-voevodin",
+            "icon": "bi-github"
+        },
+        {
+            "url": "https://www.linkedin.com/in/yurivoevodin",
+            "icon": "bi-linkedin"
+        },
+        {
+            "url": "https://t.me/voevodin_yura",
+            "icon": "bi-telegram"
+        },
+        {
+            "url": "https://www.instagram.com/voevodin.yura",
+            "icon": "bi-instagram"
+        },
+        {
+            "url": "https://www.facebook.com/yura.voevodin",
+            "icon": "bi-facebook"
+        },
+        {
+            "url": "https://twitter.com/voevodin_yura",
+            "icon": "bi-twitter"
+        }
+    ]
+}

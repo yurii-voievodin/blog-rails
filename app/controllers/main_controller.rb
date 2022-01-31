@@ -3,31 +3,12 @@ require 'json'
 class MainController < ApplicationController
 
   def main
-    skills_list = [
-      "Git",
-      "OOP",
-      "POP",
-      "Swift",
-      "MVC",
-      "UIKit",
-      "Storyboars",
-      "Auto Layout",
-      "SwiftUI",
-      "Core Data",
-      "REST API",
-      "In-App Purchase",
-      "TestFlight",
-      "App Store Connect"
-    ]
-    contacts_list = [
-      { link: "https://github.com/yura-voevodin", icon: "bi-github" },
-      { link: "https://www.linkedin.com/in/yurivoevodin", icon: "bi-linkedin" },
-      { link: "https://t.me/voevodin_yura", icon: "bi-telegram" },
-      { link: "https://www.instagram.com/voevodin.yura", icon: "bi-instagram" },
-      { link: "https://www.facebook.com/yura.voevodin", icon: "bi-facebook" },
-      { link: "https://twitter.com/voevodin_yura", icon: "bi-twitter" }
-      
-    ]
+    skills_json = File.read("data/skills.json")
+    skills_list = JSON.parse(skills_json)['skills']
+
+    contacts_json = File.read("data/contacts.json")
+    contacts_list = JSON.parse(contacts_json)['contacts']
+
     render "main/main", locals: { skills_list: skills_list, contacts_list: contacts_list }
   end
 
