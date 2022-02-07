@@ -29,5 +29,13 @@ Rails.application.routes.draw do
     get "feature", to: "ua_blog#feature"
     end
   end
+
+  # Pages
+  scope :pages do
+    # Bootstrap 5 Timeline
+    get "bootstrap_5_timeline", to: "pages#bootstrap_timeline"
+
+    get "tesla_timeline", to: "pages#tesla_timeline"
+  end
   
 end
