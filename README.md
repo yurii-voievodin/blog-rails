@@ -1,7 +1,3 @@
-![About Page](https://raw.githubusercontent.com/yura-voevodin/blog-rails/main/public/About%20page.png)
-
-![Home Page](https://raw.githubusercontent.com/yura-voevodin/blog-rails/main/public/Home%20page.png)
-
 # Setup
 
 Update to latest code:

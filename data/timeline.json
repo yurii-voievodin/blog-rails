@@ -2,6 +2,32 @@
     "timeline":
     [
         {
+            "date": "24 February 2022",
+            "title": "Russia invaded Ukraine",
+            "description": "",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-heartbreak",
+                    "color": "red"
+                }
+            }
+        },
+        {
+            "date": "16 February 2022",
+            "title": "",
+            "description": "Started working at the [VistaCreate](https://create.vista.com) company",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-keyboard",
+                    "color": "cornflowerblue"
+                }
+            }
+        },
+        {
             "date": "January 2022",
             "title": "",
             "description": "Finished working at the [Clowder](https://www.clowder.com/) company<br /><br />*Role and responsibilities:*<ul><li>Create clones (copies) of the **Core** product</li><li>Add customizations to the clones and enable/disable product modules</li><li>Integrate user profile with custom fields to the clones of the **Core** product</li><li>Work with Git by `GitFlow` methodology, resolve merge conflicts</li><li>Support existing apps and update to the latest **Core** version</li><li>Create proposals and make changes in the **Core** product</li></ul>",
@@ -269,6 +295,19 @@
             "title": "",
             "description": "",
             "comment": "June 2014 - Apple has announced the `Swift` programming language"
+        },
+        {
+            "date": "20 February 2014",
+            "title": "Russia began its annexation of Crimea",
+            "description": "",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-heartbreak",
+                    "color": "red"
+                }
+            }
         },
         {
             "date": "December 2013",
