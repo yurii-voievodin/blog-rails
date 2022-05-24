@@ -2,7 +2,11 @@ class UaController < ApplicationController
 
   def index
     @title = "Привіт! Мене звати Юра"
-    render "ua/index"
+
+    contacts_json = File.read("data/contacts.json")
+    contacts_list = JSON.parse(contacts_json)['contacts']
+
+    render "ua/index", locals: { contacts_list: contacts_list }
   end
 
   def projects
