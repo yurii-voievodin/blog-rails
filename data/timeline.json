@@ -2,6 +2,45 @@
     "timeline":
     [
         {
+            "date": "24 February 2022",
+            "title": "Russia invaded Ukraine",
+            "description": "",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-heartbreak",
+                    "color": "red"
+                }
+            }
+        },
+        {
+            "date": "16 February 2022",
+            "title": "",
+            "description": "Started working at the [VistaCreate](https://create.vista.com) company",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-keyboard",
+                    "color": "cornflowerblue"
+                }
+            }
+        },
+        {
+            "date": "January 2022",
+            "title": "",
+            "description": "Finished working at the [Clowder](https://www.clowder.com/) company<br /><br />*Role and responsibilities:*<ul><li>Create clones (copies) of the **Core** product</li><li>Add customizations to the clones and enable/disable product modules</li><li>Integrate user profile with custom fields to the clones of the **Core** product</li><li>Work with Git by `GitFlow` methodology, resolve merge conflicts</li><li>Support existing apps and update to the latest **Core** version</li><li>Create proposals and make changes in the **Core** product</li></ul>",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-flower2",
+                    "color": "cornflowerblue"
+                }
+            }
+        },
+        {
             "date": "March 2021",
             "title": "",
             "description": "Home office setup, MacBook Air M1 is 🔥",
@@ -14,15 +53,15 @@
                 },
                 "symbol":
                 {
-                    "icon": "bi-laptop",
-                    "color": "gray"
+                    "icon": "bi-house",
+                    "color": "indigo"
                 }
             }
         },
         {
             "date": "10 February 2021",
             "title": "",
-            "description": "Started working at the [CoachNow](https://coachnow.io) company. It's a part-time fully remove job.<br /><br /> *Main responsibility* here is to support the [CoachNow app](https://apps.apple.com/app/coachnow-coaching-platform/id596598472) (**iOS** and **iPadOS**) and add new features. It's an app with a long history (**7+ years**) and mixed codebase (`Objective C` and `Swift`) with a lot of dependencies.",
+            "description": "Started working at the [CoachNow](https://coachnow.io) company. It's a part-time fully remove job.<br /><br /> *Main responsibility* here is to support the [CoachNow app](https://apps.apple.com/app/coachnow-coaching-platform/id596598472) (**iOS** and **iPadOS**) and add new features. It's an app with a long history (**8+ years**) and mixed codebase (`Objective-C` and `Swift`) with a lot of dependencies.",
             "data":
             {
                 "symbol":
@@ -54,7 +93,7 @@
         {
             "date": "March 2020",
             "title": "",
-            "description": "Finished working at the App Dev Academy.<br />Worked there for more than **4 years** as **Software Developer**, participated in develpment, publication, and support of **more than 10 iOS apps** and **1 macOS app**.",
+            "description": "Finished working at the App Dev Academy.<br />Worked there for more than **4 years** as Software Developer, participated in development, publication, and support of **10+ iOS apps** and one macOS app. <br /><br />*Role and responsibilities:*<ul><li>Create apps from scratch and design apps architecture</li><li>Create user interface with **Storyboards** and **XIB** files</li><li>Use `UIKit` and create **custom UI** components</li><li>Design a database architecture and use `CoreData` framework</li><li>Write code on `Swift` programming language</li><li>Implement networking layer - **REST API**</li><li>Integrate third-party dependencies (**Firebase**, **Crashlytics**, etc.)</li></ul>",
             "data":
             {
                 "image":
@@ -94,32 +133,6 @@
             }
         },
         {
-            "date": "March 2020",
-            "title": "",
-            "description": "Started working on the **iOS app** - [Infantio](https://apps.apple.com/app/infantio/id1504605743)",
-            "data":
-            {
-                "symbol":
-                {
-                    "icon": "bi-phone",
-                    "color": "cornflowerblue"
-                }
-            }
-        },
-        {
-            "date": "January 2020",
-            "title": "",
-            "description": "Started working on the **iOS app** - [Roadio](https://apps.apple.com/app/roadio-the-trivia-ride/id1496607864)",
-            "data":
-            {
-                "symbol":
-                {
-                    "icon": "bi-phone",
-                    "color": "cornflowerblue"
-                }
-            }
-        },
-        {
             "date": "June 2019",
             "title": "",
             "description": "Started working on the - *\"Look Up\"* <br /> Native **iOS app**, written in `Swift`.  Used **API** on remote server for receive a list of products and perform search by query or filters.",
@@ -140,7 +153,7 @@
         {
             "date": "24 December 2018",
             "title": "My University",
-            "description": "Started a new personal project - [My University](https://my-university.com.ua/) web service and API on `Rails` framework.<br />In this day, I made my first commit 🎉",
+            "description": "Started a new personal project - [My University](https://my-university.com.ua/) web service and API on `Rails` framework.<br />In this day, I made my first commit 🎉 <br /><br />*Technical info:* <br />- iOS app written in `Swift` <br />-  User interface created with Storyboards <br />- **MVC** architecture (with Dependency Injection) <br />- URLSession for network requests to **REST API** <br />- `CoreData` as offline storage <br /> - [Ruby On Rails](https://rubyonrails.org) for backend",
             "data":
             {
                 "image":
@@ -151,14 +164,14 @@
                 "symbol":
                 {
                     "icon": "bi-terminal",
-                    "color": "gray"
+                    "color": "purple"
                 }
             }
         },
         {
             "date": "March 2017",
             "title": "",
-            "description": "Started working on the **iOS app** - [PROVEIT](https://apps.apple.com/app/proveit-real-money-games/id1219398758)<br />TechCrunch about PROVEIT - [Bet money on yourself with Proveit, the 1-vs-1 trivia app](https://techcrunch.com/2018/06/18/proveit-trivia)",
+            "description": "Started working on the **iOS app** - [PROVEIT](https://apps.apple.com/app/proveit-real-money-games/id1219398758)<br />TechCrunch about PROVEIT - [Bet money on yourself with Proveit, the 1-vs-1 trivia app](https://techcrunch.com/2018/06/18/proveit-trivia) <br /><br />*Technical info:* <br /> - Written in `Swift` <br /> - Cocoapods as dependency manager <br /> - **MVC** architecture <br /> - User interface created with **Storyboards** and **XIB** files <br /> - Apple Pay and Push Notifications integration <br /> - Third-party integrations: **Firebase**, **Crashlytics** <br /><br /> *Role and responsibilities:* <br /> - Design app architecture and create app from scratch <br /> - Implement networking layer - **REST API** <br /> - Implement **custom UI**",
             "data":
             {
                 "image":
@@ -284,6 +297,19 @@
             "comment": "June 2014 - Apple has announced the `Swift` programming language"
         },
         {
+            "date": "20 February 2014",
+            "title": "Russia began its annexation of Crimea",
+            "description": "",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-heartbreak",
+                    "color": "red"
+                }
+            }
+        },
+        {
             "date": "December 2013",
             "title": "",
             "description": "I bought my first MacBook! 🎉 <br /> It's a *13 inch MacBook Pro* with Mac OS Mavericks on the board. It was a really HUGE event for me.",
@@ -343,7 +369,7 @@
         {
             "date": "2011 - 2012",
             "title": "Senior Laboratory",
-            "description": "I'm worked as a **Java developer** at *\"Laboratory of distance learning\"* at *Sumy State University*. I made simple training apps for students on `Java` and an internal framework. Also, I converted  Microsoft Word documents to `HTML` pages as part of my job there.",
+            "description": "I worked as a **Java developer** at *\"Laboratory of distance learning\"* at *Sumy State University*. I made simple training apps for students on `Java` and an internal framework. Also, I converted  Microsoft Word documents to `HTML` pages as part of my job there.",
             "data":
             {
                 "symbol":
@@ -372,6 +398,11 @@
             "description": "Finished studying at technical college in *Konotop* by specialty *\"Service of computer and intelligent systems and networks\"*",
             "data":
             {
+                "image":
+                {
+                    "path": "timeline/college.jpeg",
+                    "id": "college"
+                },
                 "symbol":
                 {
                     "icon": "bi-check-circle",

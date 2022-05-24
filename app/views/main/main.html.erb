@@ -1,103 +1,147 @@
+<% meta_tag :description, "Software Engineer (iOS, Swift) / Father from Ukraine" %>
+<% meta_tag :keywords, "iOS, Developer, Engineer, Blog, Ukraine" %>
 <% @title = "Yura Voevodin" %>
 <%= render "layouts/header" %>
-
-<div class="row">
-    <div class="col-9 mx-auto">
-        <div class="alert alert-success d-flex align-items-center" role="alert">
-            <i class="bi bi-info-circle me-2"></i>
-            <div>Check out the new page - <%= link_to "Timeline", "timeline", class: "alert-link" %></div>
-        </div>
-    </div>    
-</div>
 
 <div class="col-9 mx-auto py-md-5">
 
     <div class="row">
-        <div class="col">
-            <h1>👋 Hello! My name is Yura</h1>
-            <p class="fs-4">Experienced <code class="badge bg-dark text-wrap">software engineer<span class="blinking-cursor">|</span></code> with strong background in web technologies. Focused on creating products. Enthusiast and dreamer from Ukraine 🇺🇦</p>
-        </div>
-
-        <div class="col-sm-2 mb-4">
-            <%= image_pack_tag 'avatar.jpg', class: "img-thumbnail", alt: "Yura Voevodin" %>
+        <div class="fs-3 mb-4">
+            <span class="badge rounded-pill" style="background-color: yellow;">
+                <a href="https://uahelp.monobank.ua" class="link-primary" target="_blank">Support Ukraine</a>
+            </span>
         </div>
     </div>
 
-    <div class="row fs-5 p-3 mt-5 bg-light border rounded-3">
-        <div class="container-fluid py-3 px-3">
-            <h4>😎 About</h4>
+    <div class="row fs-5 p-3 bg-light border rounded-3">
+        <div class="col-sm-2 mb-4">
+            <%= image_pack_tag 'avatar.jpg', class: "img-thumbnail", alt: "Yura Voevodin" %>
+        </div>
 
-            <ul class="list-unstyled">
-                <li>I'm Yura Voevodin, from <a href="https://www.youtube.com/watch?v=qyMkAOd_Z9U" rel="nofollow" target="_blank" class="link-dark">Sumy, Ukraine</a> and I'm glad that you took a time to visit this <a href="https://github.com/yura-voevodin/blog-rails" rel="nofollow" target="_blank" class="link-dark">website</a></li>
+        <div class="col">
+            <div class="container-fluid py-3 px-3">
+                <h4>Hi! I'm Yura Voevodin, from Ukraine 🇺🇦</h4>
 
-                <li>I work as <code class="prettyprint">Software Engineer</code> and write code on <code class="prettyprint">Swift</code>, mainly building an iOS applications</li>
-                
-                <li>I also use <a href="https://rubyonrails.org" rel="nofollow" target="_blank" class="link-dark">Ruby On Rails</a> framework for my <a href="/projects" rel="nofollow" target="_blank" class="link-dark">own projects</a></li>
-            </ul>
+                <p>I have many years of programming experience, bachelor's degree in Computer Science</p>
 
-            <p>Feel free to ask me any questions and follow me on <a href="https://www.instagram.com/voevodin.yura" rel="nofollow" target="_blank" class="link-dark">social media</a></p>
+                <p>I work as <code class="prettyprint">Software Engineer</code> and write code on <code class="prettyprint">Swift</code>, mainly building an iOS applications</p>
+
+                <p>I also use <a href="https://rubyonrails.org" rel="nofollow" target="_blank" class="link-dark">Ruby On Rails</a> framework for my <a href="/projects" rel="nofollow" target="_blank" class="link-dark">own projects</a></p>
+
+                <p>Feel free to ask me any questions and follow me on <a href="https://www.instagram.com/voevodin.yura" rel="nofollow" target="_blank" class="link-dark">social media</a></p>
+            </div>
         </div>
     </div>
 
     <div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3">
         <div class="container-fluid py-3 px-3">
-            <h4>🚀 Experience</h4>
+            <h4>Experience</h4>
 
             <dl class="row mt-3">
-              <dt class="col-sm-3">2020 - now</dt>
-              <dd class="col-sm-9">iOS Developer at <a href="https://www.clowder.com" rel="nofollow" target="_blank" class="link-info">Clowder</a></dd>
+              <dt class="col-sm-3">2020 - 2022</dt>
+              <dd class="col-sm-9">Software Engineer (iOS, Swift) at <a href="https://www.clowder.com" rel="nofollow" target="_blank" class="link-info">Clowder</a>
+                <div class="fs-6 fw-light mt-2 px-3">
+                    <i>Role and responsibilities:</i>
+                    <ul class="fs-6 fw-light">
+                        <li>Create clones (copies) of the <span class="fw-bold">Core</span> product</li>
+                        <li>Add customizations to the clones and enable/disable product modules</li>
+                        <li>Integrate user profile with custom fields to the clones of the <span class="fw-bold">Core</span> product</li>
+                        <li>Work with Git by <code>GitFlow</code> methodology, resolve merge conflicts</li>
+                        <li>Support existing apps and update to the latest version of the <span class="fw-bold">Core</span> product</li>
+                        <li>Create proposals and make changes in the <span class="fw-bold">Core</span></li>
+                    </ul>
+                </div>
+            </dd>
 
-              <dt class="col-sm-3">2020 - now</dt>
-              <dd class="col-sm-9">iOS Developer at <a href="https://coachnow.io" rel="nofollow" target="_blank" class="link-info">CoachNow</a></dd>
+            <dt class="col-sm-3">2020 - 2021</dt>
+            <dd class="col-sm-9">Software Engineer (iOS, Swift) at <a href="https://coachnow.io" rel="nofollow" target="_blank" class="link-info">CoachNow</a> (part time)
+                <p class="fs-6 fw-light mt-2 px-3">
+                    Main responsibility here is to support the <a href="https://apps.apple.com/app/coachnow-coaching-platform/id596598472" rel="nofollow" target="_blank" class="link-info">CoachNow app</a> (iOS and iPadOS) and add new features. It's an app with a long history (8+ years) and mixed codebase (<code>Objective-C</code> and <code>Swift</code>) with a lot of dependencies.
+                </p>
+                <div class="fs-6 fw-light px-3">
+                    <i>Role and responsibilities:</i>
+                    <ul class="fs-6 fw-light">
+                        <li>Rewrite code from <code>Objective-C</code> to <code>Swift</code></li>
+                        <li>Make code reviews</li>
+                        <li>Publish new versions of the app to the <span class="fw-bold">TestFlight</span> for internal testing</li>
+                        <li>Publish new releases of the app to the <span class="fw-bold">App Store</span></li>
+                        <li>Implement screen recording with <code>ReplayKit</code> framework</li>
+                        <li>Implement "pinned posts" feature</li>
+                        <li>Make improvement and fixes</li>
+                    </ul>
+                </div>
+            </dd>
 
-              <dt class="col-sm-3">2016 - 2020</dt>
-              <dd class="col-sm-9">iOS, iPadOS and macOS Apps Developer at <a href="https://www.appdev.academy" rel="nofollow" target="_blank" class="link-info">App Dev Academy</a></dd>
+            <dt class="col-sm-3">2016 - 2020</dt>
+            <dd class="col-sm-9">iOS, iPadOS and macOS Apps Developer at <a href="https://www.appdev.academy" rel="nofollow" target="_blank" class="link-info">App Dev Academy</a>
+                <p class="fs-6 fw-light mt-2 px-3">I have participated in development, publication and support of <span class="fw-bold">10+ iOS apps</span> and one macOS app.</p>
+                <div class="fs-6 fw-light px-3">
+                    <i>Role and responsibilities:</i>
+                    <ul class="fs-6 fw-light">
+                        <li>Create apps from scratch and design apps architecture</li>
+                        <li>Create user interface with <span class="fw-bold">Storyboards</span> and <span class="fw-bold">XIB</span> files</li>
+                        <li>Use <code>UIKit</code> and create <span class="fw-bold">custom UI</span> components</li>
+                        <li>Design a database architecture and use <code>Core Data</code> framework</li>
+                        <li>Write code on <code>Swift</code> programming language</li>
+                        <li>Implement networking layer - <span class="fw-bold">REST API</span></li>
+                        <li>Integrate third-party dependencies (<span class="fw-bold">Firebase</span>, <span class="fw-bold">Crashlytics</span>, etc.)</li>
+                    </ul>
+                </div>
+            </dd>
 
-              <hr>
+            <hr>
 
-              <dt class="col-sm-3">2012 - 2016</dt>
-              <dd class="col-sm-9">PHP Developer at <a href="https://bvblogic.com" rel="nofollow" target="_blank" class="link-info">bvblogic</a></dd>
+            <dt class="col-sm-3">2012 - 2016</dt>
+            <dd class="col-sm-9">PHP Developer at <a href="https://bvblogic.com" rel="nofollow" target="_blank" class="link-info">bvblogic</a>
 
-              <dt class="col-sm-3">2012 - 2013</dt>
-              <dd class="col-sm-9">Senior Laboratory at <a href="https://dl.sumdu.edu.ua/en" rel="nofollow" target="_blank" class="link-info">Laboratory of distance learning</a> at <a href="https://sumdu.edu.ua/int/en" rel="nofollow" target="_blank" class="link-info">Sumy State University</a></dd>
+                <p class="fs-6 fw-light mt-2 px-3">I build websites on <code>PHP</code> programming language, using frameworks such as <code>Laravel</code>, <code>Kohana</code>, <code>Codeigniter</code>, <code>Yii</code>. Also, I used <code>CSS3</code>, <code>HTML5</code>, <code>jQuery</code>, and <code>Bootstrap</code> for the frontend. 
+                First experience of building and supporting commercial projects.</p>
+            </dd>
 
-              <dt class="col-sm-3">2007 - 2008</dt>
-              <dd class="col-sm-9">Laboratory Technician at <a href="https://kpt.sumdu.edu.ua" rel="nofollow" target="_blank" class="link-info">Polytechnic College of Konotop Institute of the SSU</a></dd>
-          </dl>
-      </div>
-  </div>
+            <dt class="col-sm-3">2012 - 2013</dt>
+            <dd class="col-sm-9">Senior Laboratory at <a href="https://dl.sumdu.edu.ua/en" rel="nofollow" target="_blank" class="link-info">Laboratory of distance learning</a> at <a href="https://sumdu.edu.ua/int/en" rel="nofollow" target="_blank" class="link-info">Sumy State University</a>
 
-  <div class="row fs-5 p-3 mt-5 bg-light border rounded-3">
-    <div class="container-fluid py-3 px-3">
-        <h4>🎓 Education</h4>
+                <p class="fs-6 fw-light mt-2 px-3">I worked on simple training apps for students on <code>Java</code> and an internal framework. Also convert Microsoft Word documents to <code>HTML</code> pages as part of my job there.</p>
+            </dd>
 
-        <dl class="row mt-4">
-            <dt class="col-sm-3">2012</dt>
-            <dd class="col-sm-9">Bachelor of Computer Science at <a href="https://sumdu.edu.ua/int/en" rel="nofollow" target="_blank" class="link-dark">Sumy State University</a></dd>
-        </dl>
+            <dt class="col-sm-3">2007 - 2008</dt>
+            <dd class="col-sm-9">Laboratory Technician at <a href="https://kpt.sumdu.edu.ua" rel="nofollow" target="_blank" class="link-info">Polytechnic College of Konotop Institute of the SSU</a>
 
-        <dl class="row">
-            <dt class="col-sm-3">2009</dt>
-            <dd class="col-sm-9">Junior Specialist, Service of computer and intellectual systems and networks at <a href="https://kpt.sumdu.edu.ua" rel="nofollow" target="_blank" class="link-dark">Polytechnic College of Konotop Institute of the SSU</a></dd>
+                <p class="fs-6 fw-light mt-2 px-3">At college, my job was to configure, maintain and update PCs on Windows 98 and XP. Also, I helped students to make homework done.</p>
+            </dd>
         </dl>
     </div>
 </div>
 
-<div class="row fs-5 p-3 mt-5 text-white bg-dark rounded-3">
-    <div class="container-fluid py-3 px-3">
-        <h4>✉️ Contacts</h4>
-
-        <ul class="list-unstyled">
-            <li>Github <a href="https://github.com/yura-voevodin" rel="nofollow" target="_blank" class="link-info">yura-voevodin</a></li>
-            <li>Twitter <a href="https://twitter.com/voevodin_yura" rel="nofollow" target="_blank" class="link-info">@voevodin_yura</a></li>
-            <li>LinkedIn <a href="https://www.linkedin.com/in/yurivoevodin" rel="nofollow" target="_blank" class="link-info">yurivoevodin</a></li>
-            <li>Instagram <a href="https://www.instagram.com/voevodin.yura" rel="nofollow" target="_blank" class="link-info">@voevodin.yura</a></li>
-            <li>Facebook <a href="https://www.facebook.com/yura.voevodin" rel="nofollow" target="_blank" class="link-info">yura.voevodin</a></li>
-            <li>Telegram <a href="https://t.me/voevodin_yura" rel="nofollow" target="_blank" class="link-info">@voevodin_yura</a></li>
-            <li>Upwork <a href="https://www.upwork.com/freelancers/%7E01f49c60721b71f48b" rel="nofollow" target="_blank" class="link-info">Yura V.</a></li>
-        </ul>
+<% if !skills_list.blank? %>
+<div class="row fs-5 p-3 mt-5 bg-light border rounded-3">
+    <div class="col">
+        <div class="row">
+            <h4>Skills and Technologies</h4>
+            <p>
+                <% for item in skills_list %>
+                <span class="badge rounded-pill bg-dark"><%= item %></span>
+                <% end %>
+            </p>
+        </div>
     </div>
 </div>
+<% end %>
+
+<% if !contacts_list.blank? %>
+<div class="row fs-5 p-3 mt-5 text-white bg-dark border rounded-3">
+    <div class="col">
+        <div class="row">
+            <div><% for item in contacts_list %>
+                <span class="mx-2"><a href="<%= item['url'] %>" rel="nofollow" target="_blank" class="link-light"><i class="bi <%= item['icon'] %> fs-4"></i></a></span>
+                <% end %>
+            </div>
+            <div class="my-3"><a href="/cv_yura_voevodin.pdf" class="btn btn-outline-warning" target="_blank"><i class="bi bi-arrow-down-circle"></i> Download CV</a></div>
+        </div>
+    </div>
+</div>
+<% end %>
+
 
 <%= render "layouts/footer" %>
 

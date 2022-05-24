@@ -3,7 +3,13 @@ require 'json'
 class MainController < ApplicationController
 
   def main
-    render "main/main"
+    skills_json = File.read("data/skills.json")
+    skills_list = JSON.parse(skills_json)['skills']
+
+    contacts_json = File.read("data/contacts.json")
+    contacts_list = JSON.parse(contacts_json)['contacts']
+
+    render "main/main", locals: { skills_list: skills_list, contacts_list: contacts_list }
   end
 
   def projects

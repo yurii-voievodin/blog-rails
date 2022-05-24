@@ -1,0 +1,45 @@
+<% meta_tag :description, "Bootstrap 5 HTML Timeline" %>
+<% meta_tag :keywords, "Timeline, Bootstrap 5, HTML, CSS, Rails 7" %>
+<div class="container">
+  <header class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+        <%= link_to "/", rel: 'nofollow', class: "nav-link" do %>
+        <i class="bi bi-house-fill"></i>
+        <% end %>
+    </ul>
+</header>
+</div>
+
+<div class="col-8 mx-auto py-md-5">
+
+    <div class="row fs-5">
+        <div class="col-md-6">
+            <h1>Bootstrap 5 + Timeline</h1>
+            <p>This example contains implementation of popular "timeline" feature.</p>
+            <p>Made on clear <code>HTML</code> with <a href="https://getbootstrap.com" target="_blank">Bootstrap 5</a></p>
+            <div class="my-3">
+                <a href="/bootstrap_5_timeline.zip" rel="nofollow" class="btn btn-primary mt-2"><i class="bi bi-arrow-down-circle"></i> Download example</a>
+                <a href="/pages/tesla_timeline" rel="nofollow" class="btn btn-success mt-2">Live demo</a>
+            </div>
+            <div class="py-3"></div>
+            <hr>
+            <p><span class="fs-6 badge rounded-pill bg-warning text-dark">Advanced</span></p>
+            <p class="fs-6"><a href="https://github.com/yura-voevodin/rails_bootstrap_timeline" target="_blank">GitHub repository</a> with more advanced version, made on <a href="https://rubyonrails.org" target="_blank">Rails 7</a> with data source as <code>JSON</code> file. </p>
+        </div>
+        <div class="col-md-6"><img src="<%= image_path('bootstrap_timeline/Timeline.png') %>" class="img-fluid"/></div>
+    </div>
+
+    <div class="row my-5 text-center">
+        <span class="fst-italic">If you'd like to say thanks, I'd appreciate a coffee :)</span>
+        <div class="my-2">
+            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="voevodin" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="fs-3">Code example</div>
+        <div class="mt-2"><img src="<%= image_path('bootstrap_timeline/Code_example.png') %>" class="img-fluid rounded"/></div>
+    </div>
+
+    <%= render "layouts/footer" %>
+</div>

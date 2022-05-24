@@ -1,6 +1,21 @@
 {
     "movies": [
         {
+            "name": "Вторгнення",
+            "url": "https://uk.wikipedia.org/wiki/Вторгнення_(телесеріал,_2021)",
+            "image": "movies/Invasion.jpeg"
+        },
+        {
+            "name": "Фінч",
+            "url": "https://uk.wikipedia.org/wiki/Фінч_(фільм)",
+            "image": "movies/Finch.jpeg"
+        },
+        {
+            "name": "Фундація",
+            "url": "https://uk.wikipedia.org/wiki/Фундація_(телесеріал)",
+            "image": "movies/foundation.jpeg"
+        },
+        {
             "name": "Бачити",
             "url": "https://uk.wikipedia.org/wiki/Бачити_(телесеріал)",
             "image": "movies/see.jpg"
