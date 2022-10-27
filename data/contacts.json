@@ -14,16 +14,20 @@
             "icon": "bi-telegram"
         },
         {
-            "url": "https://www.instagram.com/voevodin.yura",
+            "url": "https://www.instagram.com/yurii.voievodin",
             "icon": "bi-instagram"
         },
         {
-            "url": "https://www.facebook.com/yura.voevodin",
+            "url": "https://www.facebook.com/yurii.voievodin",
             "icon": "bi-facebook"
         },
         {
             "url": "https://twitter.com/voevodin_yura",
             "icon": "bi-twitter"
+        },
+        {
+            "url": "https://www.flickr.com/photos/151623692@N05/",
+            "icon": "bi-camera"
         }
     ]
 }
