@@ -27,6 +27,7 @@ Rails.application.routes.draw do
 
       # Feature
     get "feature", to: "ua_blog#feature"
+    get "low-data-mode", to: "ua_blog#low_data_mode"
     end
   end
 
