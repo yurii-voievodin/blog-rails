@@ -13,7 +13,7 @@
 		"turbolinks": "^5.2.0",
 		"webpack": "^4.0.0"
 	},
-	"devDependencies": {
-		"webpack-dev-server": "^3"
+	"scripts": {
+		"build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules"
 	}
 }
