@@ -77,3 +77,8 @@ yarn-debug.log*
 .DS_Store
 
 /config/master.key
+
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+.rbenv-vars
