@@ -39,7 +39,7 @@
                 <% symbol = data["symbol"] %>
                 <i class="bi <%= symbol['icon'] %>" style="font-size: 1.5rem; color: <%= symbol['color'] %>;"></i>
                 <% else %>
-                <%= image_pack_tag 'dot.svg', class: "rounded-circle mx-auto d-block", size: '25x25' %>
+                <%= image_tag 'dot.svg', class: "rounded-circle mx-auto d-block", size: '25x25' %>
                 <% end %>
                 <% end %>
 
