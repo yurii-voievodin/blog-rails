@@ -82,3 +82,5 @@ yarn-debug.log*
 !/app/assets/builds/.keep
 
 .rbenv-vars
+/public/fonts/*
+!/public/fonts/.keep
