@@ -154,7 +154,7 @@
         {
             "date": "24 December 2018",
             "title": "My University",
-            "description": "Started a new personal project - [My University](https://my-university.com.ua/) web service and API on `Rails` framework.<br />In this day, I made my first commit 🎉 <br /><br />*Technical info:* <br />- iOS app written in `Swift` <br />-  User interface created with Storyboards <br />- **MVC** architecture (with Dependency Injection) <br />- URLSession for network requests to **REST API** <br />- `CoreData` as offline storage <br /> - [Ruby On Rails](https://rubyonrails.org) for backend",
+            "description": "Started a new personal project - [My University](https://my-university.com.ua/) web service and API on `Rails` framework.<br />In this day, I made my first commit 🎉 <br /><br />*Technical info:* <br />- iOS app written in `Swift` <br />-  User interface created with Storyboards and **SwiftUI** <br />- **MVC** architecture (with Dependency Injection) <br />- URLSession for network requests to **REST API** <br />- `CoreData` as offline storage <br /> - [Ruby On Rails](https://rubyonrails.org) for backend",
             "data":
             {
                 "image":
