@@ -2,9 +2,10 @@
     "timeline":
     [
         {
-            "date": "24 February 2022",
-            "title": "Russia invaded Ukraine",
+            "date": "",
+            "title": "",
             "description": "",
+            "comment": "**24 February 2022**<br />russia launched a [full-scale invasion of Ukraine](https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine)",
             "data":
             {
                 "symbol":
@@ -297,9 +298,10 @@
             "comment": "June 2014 - Apple has announced the `Swift` programming language"
         },
         {
-            "date": "20 February 2014",
-            "title": "Russia began its annexation of Crimea",
+            "date": "",
+            "title": "",
             "description": "",
+            "comment": "**20 February 2014**<br /> russia began its annexation of Crimea",
             "data":
             {
                 "symbol":
@@ -414,7 +416,15 @@
             "date": "",
             "title": "",
             "description": "",
-            "comment": "June 29, 2007 - first iPhone released 📱"
+            "comment": "June 29, 2007 <br /> first iPhone released",
+            "data":
+            {
+                "symbol":
+                {
+                    "icon": "bi-phone",
+                    "color": "cornflowerblue"
+                }
+            }
         },
         {
             "date": "2007 - 2008",
