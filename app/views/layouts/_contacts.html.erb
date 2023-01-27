@@ -1,0 +1,13 @@
+<% if !contacts_list.blank? %>
+<div class="row fs-5 p-3 mt-5 bg-light-subtle rounded-3">
+    <div class="col">
+        <div class="row">
+            <div><% for item in contacts_list %>
+                <span class="mx-2"><a href="<%= item['url'] %>" rel="nofollow" target="_blank" class="link-light"><i class="bi <%= item['icon'] %> fs-4"></i></a></span>
+                <% end %>
+            </div>
+            <div class="my-3"><a href="/Yurii_Voievodin_CV.pdf" class="btn btn-outline-warning" target="_blank"><i class="bi bi-arrow-down-circle"></i> Download CV</a></div>
+        </div>
+    </div>
+</div>
+<% end %>

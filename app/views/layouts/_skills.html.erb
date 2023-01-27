@@ -1,0 +1,14 @@
+<% if !skills_list.blank? %>
+<div class="row fs-5 p-3 mt-5 bg-light-subtle rounded-3">
+    <div class="col">
+        <div class="row">
+            <h4>Skills and Technologies</h4>
+            <p>
+                <% for item in skills_list %>
+                <span class="badge rounded-pill text-bg-light"><%= item %></span>
+                <% end %>
+            </p>
+        </div>
+    </div>
+</div>
+<% end %>

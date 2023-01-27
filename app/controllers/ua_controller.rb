@@ -3,10 +3,13 @@ class UaController < ApplicationController
   def index
     @title = "Привіт! Мене звати Юра"
 
+    skills_json = File.read("data/skills.json")
+    skills_list = JSON.parse(skills_json)['skills']
+
     contacts_json = File.read("data/contacts.json")
     contacts_list = JSON.parse(contacts_json)['contacts']
 
-    render "ua/index", locals: { contacts_list: contacts_list }
+    render "ua/index", locals: { skills_list: skills_list, contacts_list: contacts_list }
   end
 
   def projects
