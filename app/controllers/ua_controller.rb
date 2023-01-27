@@ -32,5 +32,9 @@ class UaController < ApplicationController
 
     render "ua/personal"
   end
+
+  def blog
+    render "ua/blog/blog"
+  end
   
   end
