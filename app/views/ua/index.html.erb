@@ -5,7 +5,7 @@
 
     <div class="row fs-5 p-3 bg-primary-subtle rounded-3">
         <div class="col-sm-3 mt-3">
-            <%= image_tag 'blue square.jpeg', class: "img-thumbnail", alt: "Юра Воєводін" %>
+            <%= image_tag 'blue square.jpeg', class: "img-thumbnail border border-0", alt: "Юра Воєводін" %>
         </div>
 
         <div class="col">
@@ -22,68 +22,12 @@
     </div>
 
     <div class="row fs-5 p-3 mt-5 bg-light-subtle rounded-3">
-        <div class="container-fluid py-3 px-3">
-            <h4>🚀 Досвід</h4>
-
-            <dl class="row mt-3">
-
-                <dt class="col-sm-3">2022 - now</dt>
-                <dd class="col-sm-9">Software Engineer (iOS, Swift), <a href="https://create.vista.com" rel="nofollow" target="_blank">VistaCreate</a></dd>
-
-              <dt class="col-sm-3">2020 - 2022</dt>
-              <dd class="col-sm-9">Software Engineer (iOS, Swift), <a href="https://www.clowder.com" rel="nofollow" target="_blank">Clowder</a></dd>
-
-              <dt class="col-sm-3">2020 - 2021</dt>
-              <dd class="col-sm-9">Software Engineer (iOS, Swift), <a href="https://coachnow.io" rel="nofollow" target="_blank">CoachNow</a></dd>
-
-              <dt class="col-sm-3">2016 - 2020</dt>
-              <dd class="col-sm-9">Розробник застосунків для iOS, iPadOS та macOS в <a href="https://www.appdev.academy" rel="nofollow" target="_blank">App Dev Academy</a></dd>
-
-              <hr>
-
-              <dt class="col-sm-3">2012 - 2016</dt>
-              <dd class="col-sm-9">PHP розробник в <a href="https://bvblogic.com" rel="nofollow" target="_blank">bvblogic</a></dd>
-
-              <dt class="col-sm-3">2012 - 2013</dt>
-              <dd class="col-sm-9">Старший лаборант в <a href="https://dl.sumdu.edu.ua" rel="nofollow" target="_blank">Лабораторія дистанційного навчання Сумського державного університету</a></dd>
-
-              <dt class="col-sm-3">2007 - 2008</dt>
-              <dd class="col-sm-9">Лаборант в <a href="https://kpt.sumdu.edu.ua" rel="nofollow" target="_blank">Політехнічний технікум Конотопського інституту СумДУ</a></dd>
-          </dl>
-      </div>
-  </div>
-
-  <div class="row fs-5 p-3 mt-5 bg-light-subtle rounded-3">
-    <div class="container-fluid py-3 px-3">
-        <h4>✏️ Блог</h4>
-        <p>Читайте мої статті для натхнення 😉</p>
-
-        <ul class="list-unstyled">
-            <li>
-              <i class="bi bi-arrow-right-circle text-muted"></i>
-              <a href="/ua/blog/low-data-mode">Як оптимізувати використання мобільного Інтернет</a>
-          </li>
-            <li>
-              <i class="bi bi-arrow-right-circle text-muted"></i>
-              <a href="/ua/blog/feature">Привіт із майбутнього!</a>
-          </li>
-      </ul>
-  </div>
-</div>
-
-<% if !contacts_list.blank? %>
-<div class="row fs-5 p-3 mt-5 bg-light-subtle rounded-3">
-    <div class="col">
-        <div class="row">
-            <div><% for item in contacts_list %>
-                <span class="mx-2"><a href="<%= item['url'] %>" rel="nofollow" target="_blank" class="link-light"><i class="bi <%= item['icon'] %> fs-4"></i></a></span>
-                <% end %>
-            </div>
-            <div class="my-3"><a href="/cv_yura_voevodin.pdf" class="btn btn-outline-warning" target="_blank"><i class="bi bi-arrow-down-circle"></i> Download CV</a></div>
-        </div>
+        <%= render "layouts/experience" %>
     </div>
-</div>
-<% end %>
 
-<%= render "layouts/footer" %>
+    <%= render "layouts/skills", skills_list: skills_list %>
+
+    <%= render "layouts/contacts", contacts_list: contacts_list %>
+
+    <%= render "layouts/footer" %>
 </div>
