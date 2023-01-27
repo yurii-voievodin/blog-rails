@@ -2,6 +2,10 @@
     "books":
     [
         {
+            "name": "Колонія - Нові Темні Віки",
+            "url": "https://darkages.maxkidruk.com"
+        },
+        {
             "name": "Фундація",
             "url": "https://uk.wikipedia.org/wiki/Фундація_(цикл_творів)"
         },
