@@ -16,7 +16,33 @@
         <% if event['date'] == "" && event['title'] == "" && event['description'] == "" && event['comment'] != "" %>
 
         <div class="row">
-            <div class="col-auto text-center flex-column d-none d-sm-flex"><div class="vr h-100 mx-4"></div></div>
+
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <% if event.key?("data") %>
+                <% data = event["data"] %>
+                <% if data.key?("symbol") %>
+                <% symbol = data["symbol"] %>
+
+                <% if index == 0 %>
+                <div class="row h-50 mx-4"></div>
+                <% else %>
+                <div class="vr h-50 mx-4 mb-2"></div>
+                <% end %>
+
+                <i class="bi <%= symbol['icon'] %>" style="font-size: 1.5rem; color: <%= symbol['color'] %>;"></i>
+                <div class="vr h-50 mx-4 mt-2"></div>
+                <% end %>
+                <% else %>
+
+                <% if index == 0 %>
+                <div class="row h-50 mx-4"></div>
+                <% else %>
+                <div class="vr h-100 mx-4"></div>
+                <% end %>
+
+                <% end %>
+            </div>
+
             <div class="col px-4">
                 <p><%= markdown(event['comment']) %></p>
             </div>
@@ -49,8 +75,8 @@
             <div class="col py-2">
                 <div class="card bg-dark-subtle border-0">
                     <div class="card-body">
-                        <div class="float-right text-muted" id="<%= event['date'].delete(' ') %>"><%= event['date'] %></div>
-                        <h4 class="card-title"><%= event['title'] %></h4>
+                        <div class="float-right" id="<%= event['date'].delete(' ') %>"><span class="text-secondary-emphasis"><%= event['date'] %></span></div>
+                        <h4 class="card-title"><span class="text-secondary-emphasis"><%= event['title'] %></span></h4>
                         <div class="card-text">
                             <%= markdown(event['description']) %>
                         </div>
@@ -97,7 +123,7 @@
         <div class="col py-2">
             <div class="card">
                 <div class="card-body">
-                    <div class="float-right text-muted">July 1990</div>
+                    <div class="float-right">July 1990</div>
                     <h4 class="card-title">When it's all started</h4>
                     <div class="card-text"></div>
                 </div>
