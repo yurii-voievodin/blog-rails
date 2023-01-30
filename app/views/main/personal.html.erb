@@ -5,7 +5,7 @@
 
 <div class="col-9 mx-auto py-md-5">
 
-    <div class="row fs-5 p-3 bg-light-subtle rounded-3">
+    <div class="row fs-5 p-3 bg-dark-subtle rounded-3">
         <div class="col">
 
             <h4>📷 Some of my favorite photos</h4>
@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div class="row fs-5 p-3 mt-5 bg-light-subtle rounded-3" >
+    <div class="row fs-5 p-3 mt-5 bg-dark-subtle rounded-3" >
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -34,12 +34,12 @@
                 <% @movies.each do |movie| %>
 
                 <div class="col-md-6 col-lg-4">
-                    <div class="card my-3 bg-dark border-dark">
+                    <div class="card my-3 border-0">
                         <div class="card-thumbnail">
                             <%= image_tag movie['image'], class: "rounded img-fluid" %>
                         </div>
-                        <div class="card-body">
-                            <div class="card-title fw-light">
+                        <div class="card-body bg-dark-subtle">
+                            <div class="card-title">
                                 <a href="<%= movie['url'] %>" rel="nofollow" target="_blank" class="link-danger text-decoration-none"><%= movie['name'] %></a>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="row fs-5 p-3 mt-5 bg-light-subtle rounded-3" >
+    <div class="row fs-5 p-3 mt-5 bg-dark-subtle rounded-3" >
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -74,11 +74,11 @@
                 <% @games.each do |game| %>
 
                 <div class="col-md-6 col-lg-4">
-                    <div class="card my-3 bg-dark border-dark">
+                    <div class="card my-3 border-0">
                         <div class="card-thumbnail">
                             <%= image_tag game['image'], class: "rounded img-fluid" %>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body bg-dark-subtle">
                             <div class="card-title fw-light">
                                 <a href="<%= game['url'] %>" rel="nofollow" target="_blank" class="link-danger text-decoration-none"><%= game['name'] %></a>
                             </div>

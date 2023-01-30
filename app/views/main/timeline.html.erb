@@ -47,7 +47,7 @@
             </div>
 
             <div class="col py-2">
-                <div class="card">
+                <div class="card bg-dark-subtle border-0">
                     <div class="card-body">
                         <div class="float-right text-muted" id="<%= event['date'].delete(' ') %>"><%= event['date'] %></div>
                         <h4 class="card-title"><%= event['title'] %></h4>
@@ -60,7 +60,7 @@
                         <% if data.key?("image") %>
                         <% image = data["image"] %>
                         <div>
-                            <img src="<%= image_path(image['path']) %>" class="img-thumbnail w-50 h-50" data-bs-toggle="modal" data-bs-target="#<%= image['id'] %>" />
+                            <img src="<%= image_path(image['path']) %>" class="img-fluid rounded-2 w-50 h-50" data-bs-toggle="modal" data-bs-target="#<%= image['id'] %>" />
 
                             <div class="modal fade" id="<%= image['id'] %>" tabindex="-1" aria-labelledby="imageModal" aria-hidden="true">
                               <div class="modal-dialog modal-lg">
@@ -69,7 +69,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="<%= image_path(image['path']) %>" class="img-fluid" />
+                                        <img src="<%= image_path(image['path']) %>" class="img-fluid rounded-2" />
                                     </div>
                                 </div>
                             </div>
