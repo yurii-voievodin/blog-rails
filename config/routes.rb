@@ -16,9 +16,6 @@ Rails.application.routes.draw do
   scope :ua do
     # Home page
     get "/", to: "ua#index"
-    
-    # Projects
-    get "projects", to: "ua#projects"
 
     # Personal
     get "personal", to: "ua#personal"

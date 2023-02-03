@@ -12,11 +12,6 @@ class UaController < ApplicationController
     render "ua/index", locals: { skills_list: skills_list, contacts_list: contacts_list }
   end
 
-  def projects
-    @title = "Юра Воєводін - Власні проєкти"
-    render "projects"
-  end
-
   def personal
     photos_json = File.read("data/photos.json")
     @photos = JSON.parse(photos_json)['photos']
