@@ -1,8 +1,6 @@
 class UaController < ApplicationController
 
   def index
-    @title = "Привіт! Мене звати Юра"
-
     skills_json = File.read("data/skills.json")
     skills_list = JSON.parse(skills_json)['skills']
 
