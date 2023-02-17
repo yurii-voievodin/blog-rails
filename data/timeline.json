@@ -15,7 +15,25 @@
                 "symbol":
                 {
                     "icon": "bi-house",
-                    "color": "indigo"
+                    "color": "green"
+                }
+            }
+        },
+        {
+            "date": "19 June 2022",
+            "title": "Photographer's website project",
+            "description": "[myphotoblog.herokuapp.com](https://myphotoblog.herokuapp.com) - website on Rails framework and Bootstrap toolkit",
+            "data":
+            {
+                "image":
+                {
+                    "path": "photoblog.png",
+                    "id": "photoblog_2022"
+                },
+                "symbol":
+                {
+                    "icon": "bi-camera",
+                    "color": "orange"
                 }
             }
         },
