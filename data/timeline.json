@@ -2,6 +2,24 @@
     "timeline":
     [
         {
+            "date": "December 2022",
+            "title": "Home office desk setup 2022",
+            "description": "[Ivano-Frankivsk, Ukraine](https://en.wikipedia.org/wiki/Ivano-Frankivsk)",
+            "data":
+            {
+                "image":
+                {
+                    "path": "timeline/home_office_2022.jpeg",
+                    "id": "home_office_2022"
+                },
+                "symbol":
+                {
+                    "icon": "bi-house",
+                    "color": "indigo"
+                }
+            }
+        },
+        {
             "date": "",
             "title": "",
             "description": "",
@@ -43,8 +61,8 @@
         },
         {
             "date": "March 2021",
-            "title": "",
-            "description": "Home office setup, MacBook Air M1 is 🔥",
+            "title": "Home office setup 2021, MacBook Air M1 is 🔥",
+            "description": "[Sumy, Ukraine](https://en.wikipedia.org/wiki/Sumy)",
             "data":
             {
                 "image":
