@@ -84,3 +84,7 @@ yarn-debug.log*
 .rbenv-vars
 /public/fonts/*
 !/public/fonts/.keep
+
+
+# Static pages
+/out/*
