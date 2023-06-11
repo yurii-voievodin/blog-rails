@@ -1,11 +1,11 @@
 <div class="container">
     <header class="d-flex justify-content-center py-3">
         <ul class="nav nav-pills">
-            <%= link_to root_url, rel: 'nofollow', class: "nav-link #{ is_active('main')}" do %>
+            <%= link_to "/", rel: 'nofollow', class: "nav-link #{ is_active('main')}" do %>
             <i class="bi bi-house-fill"></i>
             <% end %>
-            <li class="nav-item"><%= link_to "Timeline", "timeline", class: "nav-link #{ is_active('timeline')}" %></li>
-            <li class="nav-item"><%= link_to "Personal", "personal", class: "nav-link #{ is_active('personal')}" %></li>
+            <li class="nav-item"><%= link_to "Timeline", "timeline.html", class: "nav-link #{ is_active('timeline')}" %></li>
+            <li class="nav-item"><%= link_to "Personal", "personal.html", class: "nav-link #{ is_active('personal')}" %></li>
         </ul>
     </header>
 </div>
