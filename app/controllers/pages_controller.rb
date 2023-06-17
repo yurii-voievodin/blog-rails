@@ -2,6 +2,7 @@ class PagesController < ApplicationController
 
     def bootstrap_timeline
         @title = "Bootstrap 5 Timeline"
+        @code_example = File.read("posts/timeline_code.md")
         render "pages/bootstrap_timeline"
     end
 
