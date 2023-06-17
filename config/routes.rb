@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get "/timeline", to: "main#timeline", :defaults => { :format => 'html' }
 
   # Posts
+  get "posts", to: "posts#main", :defaults => { :format => 'html' }
   scope :posts do
     get "rails-static-pages", to: "posts#static", :defaults => { :format => 'html' }
   end
