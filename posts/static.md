@@ -9,7 +9,7 @@ How to generate a static website from a Ruby on Rails project. This is how I man
 <br>
 ## Rakefile
 
-Add a namespace "static" with the two commands "generate" and "server" (`rake static:generate` and `rake static:generate`):
+Add a namespace "static" with the two commands "generate" and "server" (`rake static:generate` and `rake static:server`):
 
 ```ruby
 namespace :static do
