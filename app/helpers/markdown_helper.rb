@@ -16,6 +16,7 @@ module MarkdownHelper
    }
    renderer = HTML.new(render_options)
    extras = {
+    highlight: true,
      autolink: true,
      no_intra_emphasis: true,
      disable_indented_code_blocks: true,

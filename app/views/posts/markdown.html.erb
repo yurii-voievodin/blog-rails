@@ -1,0 +1,19 @@
+<div class="container">
+      <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <%= link_to "/", rel: 'nofollow', class: "nav-link" do %>
+                <i class="bi bi-house-fill"></i>
+            <% end %>
+        </ul>
+    </header>
+</div>
+
+
+<div class="col-11 mx-auto p-3 py-md-5">
+
+    <div class="row fs-5">
+        <%= markdown(@markdown_text)  %>
+    </div>
+    
+    <%= render "layouts/footer" %>
+</div>

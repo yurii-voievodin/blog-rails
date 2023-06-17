@@ -12,6 +12,11 @@ Rails.application.routes.draw do
   # Timeline (en)
   get "/timeline", to: "main#timeline", :defaults => { :format => 'html' }
 
+  # Posts
+  scope :posts do
+    get "rails-static-pages", to: "posts#static", :defaults => { :format => 'html' }
+  end
+
   # UA
   scope :ua do
     # Home page
