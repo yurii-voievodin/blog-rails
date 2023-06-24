@@ -2,7 +2,7 @@
     "contacts":
     [
         {
-            "url": "https://github.com/yura-voevodin",
+            "url": "https://github.com/yurii-voievodin",
             "icon": "bi-github"
         },
         {
@@ -10,7 +10,7 @@
             "icon": "bi-linkedin"
         },
         {
-            "url": "https://t.me/voevodin_yura",
+            "url": "https://t.me/yurii_voievodin",
             "icon": "bi-telegram"
         },
         {
@@ -22,12 +22,8 @@
             "icon": "bi-facebook"
         },
         {
-            "url": "https://twitter.com/voevodin_yura",
+            "url": "https://twitter.com/yurii_voievodin",
             "icon": "bi-twitter"
-        },
-        {
-            "url": "https://www.flickr.com/photos/151623692@N05/",
-            "icon": "bi-camera"
         }
     ]
 }

@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
     def main
-        $title = "Yura Voevodin - Posts"
+        $title = "Yurii Voievodin - Posts"
         render "posts/index"
     end
 
