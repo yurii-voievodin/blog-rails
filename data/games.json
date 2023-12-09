@@ -1,6 +1,11 @@
 {
     "games": [
         {
+            "name": "No Man's Sky",
+            "url": "https://en.wikipedia.org/wiki/No_Man's_Sky",
+            "image": "games/nms.jpg"
+        },
+        {
             "name": "Battlefield V",
             "url": "https://en.wikipedia.org/wiki/Battlefield_V",
             "image": "games/b5.jpg"

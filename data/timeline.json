@@ -20,24 +20,6 @@
             }
         },
         {
-            "date": "19 June 2022",
-            "title": "Photographer's website project",
-            "description": "Website on Rails framework and Bootstrap toolkit",
-            "data":
-            {
-                "image":
-                {
-                    "path": "photoblog.png",
-                    "id": "photoblog_2022"
-                },
-                "symbol":
-                {
-                    "icon": "bi-camera",
-                    "color": "orange"
-                }
-            }
-        },
-        {
             "date": "",
             "title": "",
             "description": "",
@@ -159,7 +141,7 @@
             {
                 "image":
                 {
-                    "path": "timeline/eve.jpeg",
+                    "path": "timeline/eve2.jpeg",
                     "id": "eve"
                 },
                 "symbol":

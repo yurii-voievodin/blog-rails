@@ -1,6 +1,11 @@
 {
     "movies": [
         {
+            "name": "For All Mankind",
+            "url": "https://en.wikipedia.org/wiki/For_All_Mankind_(TV_series)",
+            "image": "movies/famk.png"
+        },
+        {
             "name": "Invasion",
             "url": "https://en.wikipedia.org/wiki/Invasion_(2021_TV_series)",
             "image": "movies/Invasion.jpeg"
