@@ -2,15 +2,33 @@
     "timeline":
     [
         {
-            "date": "December 2022",
-            "title": "Home office desk setup 2022",
+            "date": "April 2024",
+            "title": "",
+            "description": "Mobilized to the Armed Forces of Ukraine",
+            "data":
+            {
+                "image":
+                {
+                    "path": "timeline/army.jpeg",
+                    "id": "home_office_2022"
+                },
+                "symbol":
+                {
+                    "icon": "bi-shield",
+                    "color": "red"
+                }
+            }
+        },
+        {
+            "date": "March 2024",
+            "title": "Home office desk setup 2024",
             "description": "[Ivano-Frankivsk, Ukraine](https://en.wikipedia.org/wiki/Ivano-Frankivsk)",
             "data":
             {
                 "image":
                 {
-                    "path": "timeline/home_office_2022.jpeg",
-                    "id": "home_office_2022"
+                    "path": "timeline/home_office_2024.jpg",
+                    "id": "home_office_2024"
                 },
                 "symbol":
                 {
