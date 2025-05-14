@@ -88,3 +88,5 @@ yarn-debug.log*
 
 # Static pages
 /out/*
+
+/node_modules
