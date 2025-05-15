@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get "posts", to: "posts#main", :defaults => { :format => 'html' }
   scope :posts do
     get "rails-static-pages", to: "posts#static", :defaults => { :format => 'html' }
+    get "land-rover-photos", to: "posts#land_rover_photos", :defaults => { :format => 'html' }
   end
 
   # UA

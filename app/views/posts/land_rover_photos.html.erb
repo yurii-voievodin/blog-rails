@@ -1,0 +1,34 @@
+<%= render "layouts/header_small" %>
+
+<div class="col-11 mx-auto p-3 py-md-5">
+
+    <div class="row fs-5">
+        <div class="col-12">
+            <h1 class="text-center">Land Rover Discovery Sport 2017 Photos</h1>
+            <p class="text-center">A collection of my photos with Land Rover in different locations.</p>
+        </div>
+
+        <div class="row fs-5 p-3 bg-dark-subtle rounded-3">
+        <div class="col">
+
+            <div class="row mt-4">
+                <% @photos.each_slice(4) do |slice| %>
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+                    <% slice.each do |photo| %>
+                    <%= image_tag photo['name'], class: "w-100 shadow-1-strong rounded mb-4" %>
+                    <% end %>
+                </div>
+                <% end %>
+            </div>
+        </div>
+    </div>
+
+        <div class="col-12">
+            <p class="text-center pt-4">The photos were taken in different situations and locations in 2024-2025.</p>
+        </div>
+
+    </div>
+    
+    <%= render "layouts/footer" %>
+</div>
